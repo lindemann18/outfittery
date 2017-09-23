@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Flag</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="6.5" cy="6.5" r="6.5"></circle>
+        <polygon id="path-3" points="0.0177763158 0 20.976943 0 20.976943 15 0.0177763158 15"></polygon>
+    </defs>
+    <g id="Final-Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu-Swicth-Language" transform="translate(-58.000000, -363.000000)">
+            <g id="Group-5" transform="translate(58.000000, 197.000000)">
+                <g id="Deutschland-Copy-7" transform="translate(0.000000, 162.000000)">
+                    <g id="Flag" transform="translate(0.000000, 4.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Oval" fill="#D8D8D8" xlink:href="#path-1"></use>
+                        <g id="se" mask="url(#mask-2)">
+                            <g transform="translate(-4.000000, -1.000000)" id="Clipped">
+                                <g>
+                                    <mask id="mask-4" fill="white">
+                                        <use xlink:href="#path-3"></use>
+                                    </mask>
+                                    <g id="Shape"></g>
+                                    <g id="Group" mask="url(#mask-4)">
+                                        <g transform="translate(-0.316013, 0.000000)">
+                                            <g>
+                                                <path d="M0.0258182566,0.00829467773 L7.39423931,0.00829467773 L7.39423931,5.63323975 L0.0258182566,5.63323975 L0.0258182566,0.00829467773 Z M0.0258182566,8.43689575 L7.39423931,8.43689575 L7.39423931,14.0618958 L0.0258182566,14.0618958 L0.0258182566,8.43689575 Z" id="Shape" fill="#006AA7"></path>
+                                                <polygon id="Shape" fill="#FECC00" points="0.0258182566 5.63005371 7.39423931 5.63005371 7.39423931 8.44255371 0.0258182566 8.44255371"></polygon>
+                                                <polygon id="Shape" fill="#FECC00" points="7.36390214 0.000274658203 10.3112706 0.000274658203 10.3112706 14.0626923 7.36390214 14.0626923"></polygon>
+                                                <polygon id="Shape" fill="#FECC00" points="10.2177837 5.63085022 23.480884 5.63085022 23.480884 8.44335022 10.2177837 8.44335022"></polygon>
+                                                <path d="M10.3087377,8.43771973 L23.5718092,8.43771973 L23.5718092,14.0626923 L10.3087377,14.0626923 L10.3087377,8.43771973 Z M10.3087377,0.00829467773 L23.5718092,0.00829467773 L23.5718092,5.63323975 L10.3087377,5.63323975 L10.3087377,0.00829467773 Z" id="Shape" fill="#006AA7"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

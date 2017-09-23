@@ -1,0 +1,81 @@
+{
+  "country": {
+    "at": "\u00d6sterreich",
+    "be": "Belgi\u00eb",
+    "ch": "Schweiz",
+    "de": "Deutschland",
+    "dk": "Danmark",
+    "lu": "Luxembourg",
+    "nl": "Nederland",
+    "se": "Sverige",
+    "com": "International"
+  },
+  "menu":{
+    "overview": "Übersicht",
+    "myPaymentMethods": "Meine Zahlarten",
+    "myProfile": "Mein Profil",
+    "tellAFriend": "Freunde einladen",
+    "dashboard": "Dashboard",
+    "mySettings": "Meine Einstellungen",
+    "myOrders": "Meine Bestellungen",
+    "aboutMe": "Über mich",
+    "orderNow": "Jetzt bestellen",
+    "contacts": "Kontakt",
+    "logout": "Logout",
+    "login": "Login",
+    "changeCountry": "Land ändern"
+  },
+  "pages": {
+    "app": {
+      "footer":{
+        "link1": "AGB",
+        "link2": "Impressum",
+        "link3": "Datenschutz"
+      },
+      "sectionHero":{
+        "title": "Dein persönlicher Stylist",
+        "content": "Deine Zeit ist zu kostbar zum Shoppen!",
+        "subtitle": "Unsere Stylisten shoppen für Dich",
+        "ctaText": "LOS GEHT’S"
+      },
+      "sectionBulletPoints":{
+        "title": "So funktioniert’s",
+        "bulletPoints":{
+          "1": {
+            "title": "Erzähl uns von Dir",
+            "content": "Beantworte kurz ein paar Fragen zu Deinem Stil, Größen und Budget und wir suchen den passenden Stylisten für Dich aus."
+          },
+          "2": {
+            "title": "Erhalte Outfits nach Deinem Geschmack",
+            "content": "Dein Stylist stellt mithilfe Deiner Angaben die perfekte Auswahl an Kleidungsstücken für Dich zusammen."
+          },
+          "3": {
+            "title": "Probier es zu Hause an",
+            "content": "14 Tage um alles anzuprobieren. Bezahl nur, was Du behältst. Der Rückversand ist einfach und kostenfrei."
+          }
+        }
+      },
+      "sectionFeature":{
+        "1": {
+          "title": "Hunderte Marken",
+          "content": "Entdecke neue Lieblingsteile, die Du selbst nie gefunden hättest!",
+          "ctaText": "Jetzt loslegen"
+        },
+        "2": {
+          "title": "Kostenloser Hin- und Rückversand",
+          "content": "Der Versand sowie die Retoure Deiner Outfits ist super leicht und Du musst nichts dafür zahlen.",
+          "ctaText": "Ausprobieren"
+        },
+        "3": {
+          "title": "Professionelle Stil-Beratung",
+          "content": "Unsere Stylisten sind Experten im Thema Kleidung. Spare Zeit für die wirklich wichtigen Dinge des Lebens.",
+          "ctaText": "Jetzt loslegen"
+        }
+      },
+      "sectionSentence":{
+        "sentence": "Überlasse unseren Profis das Thema Kleidung und spare Zeit für die wichtigen Dinge im Leben.",
+        "ctaText": "Jetzt loslegen"
+      }
+    }
+  }
+}

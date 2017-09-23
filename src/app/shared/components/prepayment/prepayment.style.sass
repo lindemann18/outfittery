@@ -1,0 +1,132 @@
+@import "~styles/mixins.sass"
+@import "~styles/variables.sass"
+
+.payment-selection
+  .payment-selection__title
+    font-weight: 500
+    font-style: normal
+    font-stretch: normal
+    line-height: 1.22
+    letter-spacing: 1px
+    text-align: center
+    margin-top: 20px
+    margin-bottom: 19px
+
+  .payment-selection__subtitle
+    margin-bottom: 30px
+    text-align: center
+    font-size: 14px
+    color: #9b9b9b
+
+  .payment-selection__container
+    margin-left: auto
+    margin-right: auto
+    @include breakpoint('desktop')
+      max-width: 325px
+    @include breakpoint('mobile')
+      max-width: 250px
+
+  .payment-selection__option
+    margin-bottom: 18px
+
+  .payment-selection__add
+    margin-bottom: 38px
+
+  .payment-selection__invoice, .payment-selection__creditcard, .payment-selection__paypal
+    font-size: 16px
+    text-align: left
+    margin-bottom: 20px
+
+  .payment-selection__howworks
+    margin-top: 75px
+    margin-bottom: 40px
+    font-size: 18px
+
+  .container
+    border-radius: $default-border-radius
+    margin-top: 40px
+    background-color: #ffffff
+    padding: 20px
+    @include breakpoint('desktop')
+      max-width: $max-width
+    @include breakpoint('mobile')
+      max-width: $max-width-mobile
+
+  .payment-type-description
+    margin-bottom: 42px
+
+    p
+      font-size: 16px
+
+  #paypal-container
+    text-align: center
+    margin-left: auto
+    margin-right: auto
+    @include breakpoint('desktop')
+      max-width: 325px
+    @include breakpoint('mobile')
+      max-width: $max-width-mobile
+    #bt-pp-cancel
+      display: none
+    #braintree-paypal-loggedin
+      border: 0 !important
+
+#paypal-form
+  margin-left: auto
+  margin-right: auto
+  @include breakpoint('desktop')
+    max-width: $max-width
+  @include breakpoint('mobile')
+    max-width: $max-width-mobile
+
+#braintree-paypal-button
+  border-radius: 8px
+  background: #019cde
+  width: 100% !important
+  @include breakpoint('desktop')
+    padding-left: 107px
+  @include breakpoint('mobile')
+    padding-left: 70px
+  img
+    width: 115px !important
+
+.container.paypal
+  margin-bottom: 40px
+  margin-top: -20px
+
+.creditcard-container
+  margin-top: 40px
+  border-top: 1px solid $charcoal-grey
+  .wpwl-wrapper-brand
+    padding-right: 16px
+  .wpwl-button-pay
+    width: 100%
+    margin-top: 20px
+  form
+    border-radius: $default-border-radius
+    margin-top: 40px
+    max-width: $max-width
+    background-color: #ffffff
+    border: 0px
+    box-shadow: 0px 0px 0px
+    margin-top: 20px
+    @include breakpoint('desktop')
+      padding: 20px
+    @include breakpoint('mobile')
+      padding: 0px
+      max-width: $max-width-mobile
+    .wpwl-label
+      margin-bottom: 5px
+    input, iframe, select
+      border-radius: 0
+      border: solid 1px #d9d9d9
+      padding: 10px 14px
+      font-size: 14px
+      line-height: 1
+      height: 44px
+      color: #000000
+      box-shadow: none
+      font-weight: normal
+
+#braintree-paypal-button
+  float: right

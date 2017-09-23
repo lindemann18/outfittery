@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="21px" height="24px" viewBox="0 0 21 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>pages</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A4-Copy" transform="translate(-304.000000, -435.000000)" fill="#333332">
+            <g id="pages" transform="translate(304.000000, 435.000000)">
+                <path d="M3.9933,-0.0004 L3.9933,2.1456 L4.9933,2.1456 L4.9933,1.0006 L15.1133,1.0006 L15.1133,5.5026 L19.6423,5.5026 L19.6423,19.3366 L17.9303,19.3366 L17.9303,20.3366 L20.6423,20.3366 L20.6423,4.3316 L16.2963,-0.0004 L3.9933,-0.0004 Z M16.1133,1.2306 L19.3973,4.5036 L16.1133,4.5036 L16.1133,1.2306 Z" id="Fill-1"></path>
+                <path d="M0,3.3287 L0,23.6657 L16.649,23.6657 L16.649,7.6597 L12.304,3.3287 L0,3.3287 Z M1,4.3297 L11.12,4.3297 L11.12,8.8317 L15.649,8.8317 L15.649,22.6657 L1,22.6657 L1,4.3297 Z M12.12,4.5587 L15.405,7.8327 L12.12,7.8327 L12.12,4.5587 Z" id="Fill-2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,9 @@
+<section class="section-bullet-points">
+  <h4 class="section-bullet-points__title" translate="{{$ctrl.title}}"></h4>
+  <ol class="section-bullet-points__list">
+    <li class="section-bullet-points__list-item" ng-repeat="bulletPoint in $ctrl.bulletPoints">
+      <h3 class="section-bullet-points__item-title" translate="{{bulletPoint.title}}"></h3>
+      <p class="section-bullet-points__content" translate="{{bulletPoint.content}}"></p>
+    </li>
+  </ol>
+</section>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>cancelll</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.0005 23.3564 23.355 23.3564 23.355 0.0004 0.0005 0.0004 0.0005 23.3564"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A4-Copy" transform="translate(-327.000000, -244.000000)">
+            <g id="cancelll" transform="translate(327.000000, 244.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M16.0645,15.4277 L15.4275,16.0647 L11.6775,12.3147 L7.9275,16.0647 L7.2915,15.4277 L11.0415,11.6777 L7.2915,7.9277 L7.9275,7.2907 L11.6775,11.0407 L15.4275,7.2907 L16.0645,7.9277 L12.3145,11.6777 L16.0645,15.4277 Z M11.6775,-0.0003 C5.2385,-0.0003 0.0005,5.2387 0.0005,11.6777 C0.0005,18.1167 5.2385,23.3567 11.6775,23.3567 C18.1175,23.3567 23.3555,18.1167 23.3555,11.6777 C23.3555,5.2387 18.1175,-0.0003 11.6775,-0.0003 L11.6775,-0.0003 Z" id="Fill-1" fill="#333332" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

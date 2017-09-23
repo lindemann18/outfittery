@@ -1,0 +1,13 @@
+<header class="navHeader">
+  <div class="navHeader__fixed">
+    <div class="navHeader__logo">
+      <ps-logo></ps-logo>
+    </div>
+    <div class="navHeader__menu">
+      <div class="navHeader__menu-icon" ng-class="{ 'navHeader__menu-icon--cross': $ctrl.showNav }" ng-click="$ctrl.toggleMenu()"></div>
+      <div class="navHeader__nav-container" ng-show="$ctrl.showNav">
+        <ps-menu items="$ctrl.menu"></ps-menu>
+      </div>
+    </div>
+  </div>
+</header>

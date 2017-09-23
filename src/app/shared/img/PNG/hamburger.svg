@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="12px" viewBox="0 0 20 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Hamburger Menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Hamburger-Menu" fill="#000000">
+            <g id="Group">
+                <path d="M19.307,5.468 L0.693,5.468 C0.399,5.468 0.161,5.706 0.161,6 C0.161,6.294 0.399,6.532 0.693,6.532 L19.307,6.532 C19.601,6.532 19.839,6.294 19.839,6 C19.839,5.706 19.601,5.468 19.307,5.468 Z" id="Shape"></path>
+                <path d="M19.307,10.787 L0.693,10.787 C0.399,10.787 0.161,11.025 0.161,11.319 C0.161,11.613 0.399,11.851 0.693,11.851 L19.307,11.851 C19.601,11.851 19.839,11.613 19.839,11.319 C19.839,11.025 19.601,10.787 19.307,10.787 Z" id="Shape"></path>
+                <path d="M0.693,1.214 L19.307,1.214 C19.601,1.214 19.839,0.976 19.839,0.682 C19.839,0.388 19.601,0.15 19.307,0.15 L0.693,0.15 C0.399,0.15 0.161,0.388 0.161,0.682 C0.161,0.976 0.399,1.214 0.693,1.214 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

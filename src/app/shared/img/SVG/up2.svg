@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>up2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="12.53605 26 25.072 26 25.072 0.928 12.53605 0.928 0.0001 0.928 0.0001 26 12.53605 26"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A4-Copy" transform="translate(-242.000000, -242.000000)">
+            <g id="up2" transform="translate(242.000000, 241.000000)">
+                <polygon id="Fill-1" fill="#333332" points="6.1436 13.1094 6.7806 13.7464 12.0856 8.4394 12.0856 20.0944 12.9866 20.0944 12.9866 8.4394 18.2916 13.7464 18.9286 13.1094 12.5366 6.7154"></polygon>
+                <g id="Group-4" transform="translate(0.000000, 0.072300)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-3"></g>
+                    <path d="M12.5361,25 C6.1751,25 1.0001,19.825 1.0001,13.464 C1.0001,7.103 6.1751,1.928 12.5361,1.928 C18.8971,1.928 24.0721,7.103 24.0721,13.464 C24.0721,19.825 18.8971,25 12.5361,25 M12.5361,0.928 C5.6241,0.928 0.0001,6.552 0.0001,13.464 C0.0001,20.376 5.6241,26 12.5361,26 C19.4481,26 25.0721,20.376 25.0721,13.464 C25.0721,6.552 19.4481,0.928 12.5361,0.928" id="Fill-2" fill="#333332" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

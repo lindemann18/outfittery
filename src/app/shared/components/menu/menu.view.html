@@ -1,0 +1,16 @@
+<ul class="menu">
+  <li class="menu__item" ng-repeat="item in $ctrl.items">
+    <!-- Simple item -->
+    <a target="_self" class="menu__itemLink" ng-if="item.url" href="{{item.url}}" translate="{{item.name}}"></a>
+
+    <!-- Nested item -->
+    <input class="menu__item-checkbox" ng-if="item.items" id="{{item.name}}" type="checkbox" checked />
+    <label class="menu__item-title" ng-if="item.items" translate="{{item.name}}" for="{{item.name}}"></label>
+    <ul class="menu__submenu" ng-if="item.items">
+      <li class="menu__submenuItem" ng-repeat="subItem in item.items">
+        <img ng-if="subItem.icon" class="menu__submenuIcon" src="{{subItem.icon}}" />
+        <a target="_self" class="menu__submenuLink" href="{{subItem.url}}" translate="{{subItem.name}}"></a>
+      </li>
+    </ul>
+  </li>
+</ul>

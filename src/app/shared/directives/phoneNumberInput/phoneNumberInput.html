@@ -1,0 +1,30 @@
+<div class="row">
+  <div class="mb-xs col-sm-4 col-xs-5 sPR">
+    <select ng-change="validatePhoneNumber()" class="phoneCountryExtensions form-control" id="phoneCountryCode" name="phoneCountryCode" ng-model="phoneCountryCode">
+      <option translate="pickCall.phoneNumber.country.BE" value="BE"></option>
+      <option translate="pickCall.phoneNumber.country.DK" value="DK"></option>
+      <option translate="pickCall.phoneNumber.country.DE" value="DE"></option>
+      <option translate="pickCall.phoneNumber.country.ES" value="ES"></option>
+      <option translate="pickCall.phoneNumber.country.FR" value="FR"></option>
+      <option translate="pickCall.phoneNumber.country.IT" value="IT"></option>
+      <option translate="pickCall.phoneNumber.country.LU" value="LU"></option>
+      <option translate="pickCall.phoneNumber.country.NL" value="NL"></option>
+      <option translate="pickCall.phoneNumber.country.NO" value="NO"></option>
+      <option translate="pickCall.phoneNumber.country.AT" value="AT"></option>
+      <option translate="pickCall.phoneNumber.country.PL" value="PL"></option>
+      <option translate="pickCall.phoneNumber.country.CH" value="CH"></option>
+      <option translate="pickCall.phoneNumber.country.FI" value="FI"></option>
+      <option translate="pickCall.phoneNumber.country.SE" value="SE"></option>
+      <option translate="pickCall.phoneNumber.country.TR" value="TR"></option>
+      <option translate="pickCall.phoneNumber.country.GB" value="GB"></option>
+      <option translate="pickCall.phoneNumber.country.US" value="US"></option>
+    </select>
+  </div>
+  <div class="col-sm-8 col-xs-7 sPL">
+    <div class="controls">
+      <input class="form-control placeholder" ng-change="validatePhoneNumber()" validate id="phoneNumber" name="phoneNumber" ng-model="phoneNumber" placeholder="" type="tel" value="" ng-required="isRequired">
+      <div translate="pickCall.phoneNumber.errorMsgRequired" class="hidden errorMsgRequired"></div>
+      <div translate="pickCall.phoneNumber.errorMsgInvalid" class="hidden errorMsgInvalid"></div>
+    </div>
+  </div>
+</div>

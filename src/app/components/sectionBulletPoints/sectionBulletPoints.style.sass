@@ -1,0 +1,50 @@
+@import "~styles/variables.sass"
+
+.section-bullet-points
+  text-align: center
+  padding: 20px
+  counter-reset: sectionBulletPoint
+  background: $background
+  color: $charcoal-grey
+
+.section-bullet-points__title
+  font-size: 18px
+  text-transform: uppercase
+  margin: 0
+
+.section-bullet-points__list
+  padding: 0
+
+.section-bullet-points__list-item
+  display: flex
+  flex-direction: column
+  align-items: center
+  background-color: white
+  list-style: none
+  border-radius: 2px
+  padding: 20px
+  margin-bottom: 12px
+  h3
+    margin-bottom: 0px
+
+.section-bullet-points__list-item::before
+  display: flex
+  justify-content: center
+  align-items: center
+  border: 2px solid $charcoal-grey
+  border-radius: 100%
+  font-weight: bold
+  height: 46px
+  width: 46px
+  counter-increment: sectionBulletPoint
+  content: counter(sectionBulletPoint)
+  font-size: 20px
+
+.section-bullet-points__item-title
+  font-size: 22px
+  font-weight: normal
+
+.section-bullet-points__content
+  line-height: 1.5
+  font-size: 20px
+  color: $charcoal-grey

@@ -1,0 +1,81 @@
+{
+  "country": {
+    "at": "\u00d6sterreich",
+    "be": "Belgi\u00eb",
+    "ch": "Schweiz",
+    "de": "Deutschland",
+    "dk": "Danmark",
+    "lu": "Luxembourg",
+    "nl": "Nederland",
+    "se": "Sverige",
+    "com": "International"
+  },
+  "menu":{
+    "overview": "Undersökning",
+    "myPaymentMethods": "Min Betalning",
+    "myProfile": "Min profil",
+    "tellAFriend": "Bjuda in vänner",
+    "dashboard": "Dashboard",
+    "mySettings": "Mina inställningar",
+    "myOrders": "Mina order",
+    "aboutMe": "Om mig",
+    "orderNow": "Beställ nu",
+    "contacts": "kontakt",
+    "logout": "Logout",
+    "login": "Login",
+    "changeCountry": "Ändra land"
+  },
+  "pages": {
+    "app": {
+      "footer":{
+        "link1": "Allmänna Villkor",
+        "link2": "Företagsinformation",
+        "link3": "Sekretesspolicy"
+      },
+      "sectionHero":{
+        "title": "Din personliga stylist",
+        "content": "Ingen lust att lägga din tid på shopping?",
+        "subtitle": "Låt våra stylister göra jobbet åt dig",
+        "ctaText": "Starta här"
+      },
+      "sectionBulletPoints":{
+        "title": "Så fungerar det",
+        "bulletPoints":{
+          "1": {
+            "title": "Berätta om dig själv",
+            "content": "Besvara några frågor gällande din stil, storlekar och budget så ser vi till att du blir tilldelad en passande stylist."
+          },
+          "2": {
+            "title": "Motta personliga och stylade outfits",
+            "content": "Din stylist kommer att sätta samman outfits baserat på dina önskemål."
+          },
+          "3": {
+            "title": "Pröva allt hemma",
+            "content": "Du har 14 dagar på dig att pröva dina outfits hemma. Betala endast för de plagg du vill behålla. Leverans och retur är alltid kostnadsfria."
+          }
+        }
+      },
+      "sectionFeature":{
+        "1": {
+          "title": "Hundratals olika märken",
+          "content": "Hitta dina nya favoriter, som du aldrig skulle funnit själv!",
+          "ctaText": "Pröva nu"
+        },
+        "2": {
+          "title": "Leverans och retur är kostandsfria",
+          "content": "Du har 14 dagar på dig att prova dina outfits. Betala endast för de artiklarna du vill behålla. Enkel och kostnadsfri retur.",
+          "ctaText": "Pröva nu"
+        },
+        "3": {
+          "title": "Professionell stilrådgivning",
+          "content": "Överlåt ansvaret för shoppning till våra professionella stylister och fokusera på viktigare saker i livet. ",
+          "ctaText": "Pröva nu"
+        }
+      },
+      "sectionSentence":{
+        "sentence": "Überlasse unseren Profis das Thema Kleidung und spare Zeit für die wichtigen Dinge im Leben.",
+        "ctaText": "Pröva nu"
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>calendar-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Funnel---Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="04_Mobile-Week_No_available_Time" transform="translate(-102.000000, -241.000000)">
+            <g id="stylist_speach" transform="translate(13.000000, 130.000000)">
+                <g id="calendar-icon" transform="translate(90.000000, 111.000000)">
+                    <rect id="Rectangle-path" stroke="#333333" x="-5.68434189e-14" y="1.71818182" width="17.5090909" height="17.1818182"></rect>
+                    <path d="M-5.68434189e-14,5.56363636 L17.5909091,5.56363636" id="XMLID_1842_" stroke="#333333"></path>
+                    <text id="XMLID_1843_" fill="#333333" font-family="Helvetica" font-size="10" font-weight="normal">
+                        <tspan x="5.82856364" y="14.2447909">1</tspan>
+                    </text>
+                    <polyline id="Shape" stroke="#333333" points="12.2727273 18.8181818 12.2727273 13.6636364 17.5909091 13.6636364"></polyline>
+                    <path d="M17.5909091,13.6636364 L12.2727273,18.8181818" id="Shape" stroke="#333333"></path>
+                    <path d="M3.43636364,0 L3.43636364,3.27272727" id="XMLID_1844_" stroke="#333333"></path>
+                    <path d="M14.0727273,0 L14.0727273,3.27272727" id="XMLID_1845_" stroke="#333333"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

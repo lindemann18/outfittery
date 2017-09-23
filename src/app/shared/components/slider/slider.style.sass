@@ -1,0 +1,77 @@
+@import "~styles/variables.sass"
+
+/* constants */
+$thumb-size: 16px
+$track-thickness: 5px
+
+/* clean up of defaults */
+input[type=range]
+  -webkit-appearance: none
+  width: 100%
+  background: transparent
+
+input[type=range]::-webkit-slider-thumb
+  -webkit-appearance: none
+
+input[type=range]:focus
+  outline: none
+
+input[type=range]::-ms-track
+  cursor: pointer
+  background: transparent; 
+  border-color: transparent;
+  color: transparent;
+
+/* thumb settings */
+
+input[type=range]::-webkit-slider-thumb
+  -webkit-appearance: none
+  margin-top: -$thumb-size/2 + $track-thickness/2
+  width: $thumb-size
+  height: $thumb-size
+  border-radius: $thumb-size/2
+  border: 2px solid $brand-primary
+  background: white
+  cursor: pointer
+
+input[type=range]::-moz-range-thumb
+  width: $thumb-size
+  height: $thumb-size
+  border-radius: $thumb-size/2
+  border: 2px solid $brand-primary
+  background: white
+  cursor: pointer
+
+input[type=range]::-ms-thumb
+  width: $thumb-size
+  height: $thumb-size
+  border-radius: $thumb-size/2
+  border: 2px solid $brand-primary
+  background: white
+  cursor: pointer
+
+/* track settings */
+
+input[type=range]::-webkit-slider-runnable-track
+  width: 100%
+  height: $track-thickness
+  cursor: pointer
+  background: $brand-primary
+  border-radius: 1px
+
+input[type=range]:focus::-webkit-slider-runnable-track
+  background: $brand-primary-darken
+
+input[type=range]::-moz-range-track
+  width: 100%
+  height: $track-thickness
+  cursor: pointer
+  background: $brand-primary
+  border-radius: 1px
+
+input[type=range]::-ms-track
+  width: 100%
+  height: $track-thickness
+  cursor: pointer
+  background: $brand-primary
+  border-radius: 1px

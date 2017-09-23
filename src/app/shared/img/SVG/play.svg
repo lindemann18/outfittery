@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>play</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="22.356 11.17835 22.356 22.3562 0 22.3562 0 11.17835 0 0.0005 22.356 0.0005"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A4-Copy" transform="translate(-429.000000, -250.000000)">
+            <g id="play" transform="translate(429.000000, 250.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M12.575,14.0215 L8.331,16.4615 L8.331,11.5815 L8.331,6.7025 L12.575,9.1425 L16.819,11.5815 L12.575,14.0215 Z M11.178,0.0005 C5.005,0.0005 0,5.0045 0,11.1785 C0,17.3515 5.005,22.3565 11.178,22.3565 C17.352,22.3565 22.356,17.3515 22.356,11.1785 C22.356,5.0045 17.352,0.0005 11.178,0.0005 L11.178,0.0005 Z" id="Fill-1" fill="#333332" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>cancel</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 24 23.356 24 23.356 0.644 0 0.644"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A4-Copy" transform="translate(-325.000000, -209.000000)">
+            <g id="cancel" transform="translate(325.000000, 208.000000)">
+                <g id="Group-3" transform="translate(0.000000, 0.356400)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M11.6787,23 C5.7897,23 0.9997,18.21 0.9997,12.322 C0.9997,6.434 5.7897,1.644 11.6787,1.644 C17.5667,1.644 22.3567,6.434 22.3567,12.322 C22.3567,18.21 17.5667,23 11.6787,23 M11.6787,0.644 C5.2397,0.644 -0.0003,5.883 -0.0003,12.322 C-0.0003,18.762 5.2397,24 11.6787,24 C18.1177,24 23.3567,18.762 23.3567,12.322 C23.3567,5.883 18.1177,0.644 11.6787,0.644" id="Fill-1" fill="#333332" mask="url(#mask-2)"></path>
+                </g>
+                <polygon id="Fill-4" fill="#333332" points="15.4287 8.291 11.6787 12.041 7.9277 8.291 7.2907 8.928 11.0417 12.678 7.2907 16.429 7.9277 17.065 11.6787 13.315 15.4287 17.065 16.0657 16.429 12.3147 12.678 16.0657 8.928"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

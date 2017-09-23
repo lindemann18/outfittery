@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>navigate</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="23.2945 0.705 0.0005 0.705 0.0005 23.9996 23.2945 23.9996"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A4-Copy" transform="translate(-197.000000, -380.000000)">
+            <g id="navigate" transform="translate(197.000000, 379.000000)">
+                <g id="Group-3" transform="translate(0.000000, 0.294900)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M12.1475,22.9746 L12.1475,20.9396 L11.1475,20.9396 L11.1475,22.9746 C5.6755,22.7186 1.2815,18.3236 1.0255,12.8526 L3.0605,12.8526 L3.0605,11.8526 L1.0255,11.8526 C1.2815,6.3806 5.6755,1.9866 11.1475,1.7306 L11.1475,3.7656 L12.1475,3.7656 L12.1475,1.7306 C17.6195,1.9866 22.0135,6.3806 22.2695,11.8526 L20.2345,11.8526 L20.2345,12.8526 L22.2695,12.8526 C22.0135,18.3236 17.6195,22.7186 12.1475,22.9746 M11.6475,0.7046 C5.2245,0.7046 0.0005,5.9296 0.0005,12.3526 C0.0005,18.7756 5.2245,23.9996 11.6475,23.9996 C18.0705,23.9996 23.2945,18.7756 23.2945,12.3526 C23.2945,5.9296 18.0705,0.7046 11.6475,0.7046" id="Fill-1" fill="#333332" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M13.4771,13.8003 L10.4621,10.7853 L15.5261,8.7363 L13.4771,13.8003 Z M5.8921,18.3723 L14.0411,15.0713 L17.3391,6.9243 L9.1911,10.2213 L5.8921,18.3723 Z" id="Fill-4" fill="#333332"></path>
+            </g>
+        </g>
+    </g>
+</svg>

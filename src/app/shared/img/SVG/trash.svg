@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>trash</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 24.5352 23.049 24.5352 23.049 1.0002 0 1.0002"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A4-Copy" transform="translate(-368.000000, -799.000000)">
+            <g id="trash" transform="translate(368.000000, 798.000000)">
+                <g id="Group-3" transform="translate(0.000000, 0.535200)" fill="#333332">
+                    <path d="M17.4131,22.6143 C17.4131,22.8273 17.2391,23.0003 17.0261,23.0003 L6.0221,23.0003 C5.8121,23.0003 5.6361,22.8233 5.6331,22.5633 L4.0001,6.4853 L19.0491,6.4853 L17.4131,22.6143 Z M7.4911,1.4653 L15.5581,1.4653 C15.6231,1.4653 15.6631,1.4963 15.6631,1.4963 L15.6721,1.4963 L15.6721,5.4803 L7.3761,5.4803 L7.3741,1.5133 C7.3811,1.5003 7.4211,1.4653 7.4911,1.4653 L7.4911,1.4653 Z M16.6721,5.4853 L16.6721,1.4963 C16.6721,0.9293 16.1701,0.4653 15.5581,0.4653 L7.4911,0.4653 C6.8791,0.4653 6.3771,0.9293 6.3771,1.4963 L6.3771,5.4853 L0.0001,5.4853 L0.0001,6.4853 L2.9961,6.4853 L4.6361,22.6143 C4.6361,23.3783 5.2581,24.0003 6.0221,24.0003 L17.0261,24.0003 C17.7911,24.0003 18.4131,23.3783 18.4101,22.6653 L20.0541,6.4853 L23.0491,6.4853 L23.0491,5.4853 L16.6721,5.4853 Z" id="Fill-1"></path>
+                </g>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-5"></g>
+                <polygon id="Fill-4" fill="#333332" mask="url(#mask-2)" points="7.687 20.1952 8.687 20.1952 8.687 8.5782 7.687 8.5782"></polygon>
+                <polygon id="Fill-6" fill="#333332" mask="url(#mask-2)" points="11.044 20.1952 12.044 20.1952 12.044 8.5782 11.044 8.5782"></polygon>
+                <polygon id="Fill-7" fill="#333332" mask="url(#mask-2)" points="14.402 20.1952 15.402 20.1952 15.402 8.5782 14.402 8.5782"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

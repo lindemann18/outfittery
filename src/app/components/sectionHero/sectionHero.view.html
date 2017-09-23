@@ -1,0 +1,12 @@
+<section class="section-hero">
+  <background-image class="section-hero__hero" background-image="$ctrl.heroSrc"></background-image>
+  <div class="section-hero__padded-content">
+    <h2 class="section-hero__title" translate="{{$ctrl.title}}"></h2>
+    <p class="section-hero__content" translate="{{$ctrl.content}}"></p>
+    <p class="section-hero__subtitle" translate="{{$ctrl.subtitle}}"></p>
+    <div>
+      <a target="_self" href="{{$ctrl.ctaUrl}}" class="uppercase btn btn-primary" translate="{{$ctrl.ctaText}}"></a>
+    </div>
+    <div du-smooth-scroll="{{$ctrl.scrollTo}}" class="section-hero__arrowIcon" du-scrollspy offset="60"></div>
+  </div>
+</section>

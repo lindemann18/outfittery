@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="21px" height="24px" viewBox="0 0 21 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>houseee</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 23.3281 20.154 23.3281 20.154 0.0001 0 0.0001"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A4-Copy" transform="translate(-81.000000, -375.000000)">
+            <g id="houseee" transform="translate(81.000000, 375.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M13.5566,22.3281 L17.4556,22.3281 C17.5926,22.3281 17.7076,22.2131 17.7076,22.0761 L19.1036,9.0951 L9.9376,1.3201 L1.0506,9.0901 L2.4426,22.0221 C2.4456,22.2131 2.5606,22.3281 2.6976,22.3281 L6.5976,22.3281 L6.5976,14.3371 L13.5566,14.3371 L13.5566,22.3281 Z M17.4556,23.3281 L12.5566,23.3281 L12.5566,15.3371 L7.5976,15.3371 L7.5976,23.3281 L2.6976,23.3281 C2.0066,23.3281 1.4456,22.7661 1.4456,22.0761 L-0.0004,8.6801 L9.9276,0.0001 L20.1546,8.6751 L18.7046,22.1301 C18.7076,22.7661 18.1466,23.3281 17.4556,23.3281 L17.4556,23.3281 Z" id="Fill-1" fill="#333332" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

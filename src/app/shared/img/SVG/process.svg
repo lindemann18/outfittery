@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>process</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.0004 23.3564 23.356 23.3564 23.356 0.0004 0.0004 0.0004"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A4-Copy" transform="translate(-286.000000, -208.000000)">
+            <g id="process" transform="translate(286.000000, 208.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M22.5264,7.3466 L21.5984,7.7176 C22.1014,8.9776 22.3564,10.3096 22.3564,11.6776 C22.3564,17.5666 17.5664,22.3566 11.6784,22.3566 C5.7904,22.3566 1.0004,17.5666 1.0004,11.6776 C1.0004,5.7896 5.7904,0.9996 11.6784,0.9996 C14.6064,0.9996 17.3474,2.1826 19.3544,4.2646 L16.2094,4.2646 L16.2094,5.2646 L20.9614,5.2646 L20.9614,0.5116 L19.9614,0.5116 L19.9614,3.4456 C17.7764,1.2426 14.8244,-0.0004 11.6784,-0.0004 C5.2394,-0.0004 0.0004,5.2386 0.0004,11.6776 C0.0004,18.1176 5.2394,23.3566 11.6784,23.3566 C18.1184,23.3566 23.3564,18.1176 23.3564,11.6776 C23.3564,10.1826 23.0774,8.7246 22.5264,7.3466" id="Fill-1" fill="#333332" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

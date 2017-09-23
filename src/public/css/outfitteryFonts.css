@@ -1,0 +1,558 @@
+@font-face {
+  font-family: 'Light-Outfittery-Iconset';
+  src:url('/fonts/Light-Outfittery-Iconset.eot?ldj0he');
+  src:url('/fonts/Light-Outfittery-Iconset.eot?ldj0he#iefix') format('embedded-opentype'),
+    url('/fonts/Light-Outfittery-Iconset.woff2?ldj0he') format('woff2'),
+    url('/fonts/Light-Outfittery-Iconset.ttf?ldj0he') format('truetype'),
+    url('/fonts/Light-Outfittery-Iconset.woff?ldj0he') format('woff'),
+    url('/fonts/Light-Outfittery-Iconset.svg?ldj0he#Light-Outfittery-Iconset') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+font-family: 'Light-Outfittery-Iconset' !important;
+speak: none;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+text-transform: none;
+line-height: 1;
+
+/* Better Font Rendering =========== */
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-light-01:before {
+content: "\e900";
+}
+.icon-light--02:before {
+content: "\e901";
+}
+.icon-light-03:before {
+content: "\e902";
+}
+.icon-light-04:before {
+content: "\e903";
+}
+.icon-light-05:before {
+content: "\e904";
+}
+.icon-light-06:before {
+content: "\e905";
+}
+.icon-light-07:before {
+content: "\e906";
+}
+.icon-light-08:before {
+content: "\e907";
+}
+.icon-light-09:before {
+content: "\e908";
+}
+.icon-light-griffin:before {
+content: "\e694";
+}
+.icon-light-shirt1:before {
+content: "\e801";
+}
+.icon-light-shirt2:before {
+content: "\e802";
+}
+.icon-light-pullover:before {
+content: "\e803";
+}
+.icon-light-tshirt:before {
+content: "\e804";
+}
+.icon-light-sakko:before {
+content: "\e805";
+}
+.icon-light-suit:before {
+content: "\e806";
+}
+.icon-light-jacket:before {
+content: "\e807";
+}
+.icon-light-jacket2:before {
+content: "\e808";
+}
+.icon-light-jeans:before {
+content: "\e809";
+}
+.icon-light-trousers:before {
+content: "\e80a";
+}
+.icon-light-shorts:before {
+content: "\e80b";
+}
+.icon-light-shoes:before {
+content: "\e80c";
+}
+.icon-light-socks:before {
+content: "\e80d";
+}
+.icon-light-hat:before {
+content: "\e80e";
+}
+.icon-light-belt:before {
+content: "\e80f";
+}
+.icon-light-handclock:before {
+content: "\e810";
+}
+.icon-light-club:before {
+content: "\e811";
+}
+.icon-light-play-stroke:before {
+content: "\e812";
+}
+.icon-light-list:before {
+content: "\e813";
+}
+.icon-light-crow:before {
+content: "\e814";
+}
+.icon-light-black-cross:before {
+content: "\e815";
+}
+.icon-light-truck:before {
+content: "\e800";
+}
+.icon-light-survey:before {
+content: "\e64c";
+}
+.icon-light-survey2:before {
+content: "\e692";
+}
+.icon-light-click-screen:before {
+content: "\e64a";
+}
+.icon-light-cloth-download:before {
+content: "\e645";
+}
+.icon-light-cloth-upload:before {
+content: "\e646";
+}
+.icon-light-trash-open:before {
+content: "\e63e";
+}
+.icon-light-trash-semiopen:before {
+content: "\e63d";
+}
+.icon-light-send-back:before {
+content: "\e620";
+}
+.icon-light-send-to-you:before {
+content: "\e622";
+}
+.icon-light-trash-out:before {
+content: "\e63f";
+}
+.icon-light-cloth-offer:before {
+content: "\e644";
+}
+.icon-light-doc-download:before {
+content: "\e652";
+}
+.icon-light-play:before {
+content: "\e691";
+}
+.icon-light-pencil:before {
+content: "\e67d";
+}
+.icon-light-search:before {
+content: "\e67e";
+}
+.icon-light-star:before {
+content: "\e67f";
+}
+.icon-light-filledstar:before {
+content: "\e680";
+}
+.icon-light-size:before {
+content: "\e681";
+}
+.icon-light-cake:before {
+content: "\e682";
+}
+.icon-light-tell:before {
+content: "\e683";
+}
+.icon-light-back:before {
+content: "\e684";
+}
+.icon-light-picture:before {
+content: "\e685";
+}
+.icon-light-gallery:before {
+content: "\e686";
+}
+.icon-light-cloud:before {
+content: "\e687";
+}
+.icon-light-cloudy:before {
+content: "\e688";
+}
+.icon-light-raining:before {
+content: "\e689";
+}
+.icon-light-storm:before {
+content: "\e68a";
+}
+.icon-light-sun:before {
+content: "\e68b";
+}
+.icon-light-snow:before {
+content: "\e68c";
+}
+.icon-light-umbrella:before {
+content: "\e68d";
+}
+.icon-light-lighting:before {
+content: "\e68e";
+}
+.icon-light-home:before {
+content: "\e68f";
+}
+.icon-light-heart:before {
+content: "\e690";
+}
+.icon-light-wardrobe:before {
+content: "\e600";
+}
+.icon-light-sofa:before {
+content: "\e657";
+}
+.icon-light-puzzle:before {
+content: "\e658";
+}
+.icon-light-lightbulb:before {
+content: "\e659";
+}
+.icon-light-glasses1:before {
+content: "\e65a";
+}
+.icon-light-glasses2:before {
+content: "\e65b";
+}
+.icon-light-mustache:before {
+content: "\e65c";
+}
+.icon-light-box-plain:before {
+content: "\e65f";
+}
+.icon-light-big-signage:before {
+content: "\e660";
+}
+.icon-light-hanger:before {
+content: "\e661";
+}
+.icon-light-binoculars:before {
+content: "\e662";
+}
+.icon-light-book:before {
+content: "\e663";
+}
+.icon-light-pocket:before {
+content: "\e664";
+}
+.icon-light-money:before {
+content: "\e665";
+}
+.icon-light-suitcase1:before {
+content: "\e666";
+}
+.icon-light-suitcase2:before {
+content: "\e667";
+}
+.icon-light-map:before {
+content: "\e668";
+}
+.icon-light-target:before {
+content: "\e669";
+}
+.icon-light-label:before {
+content: "\e66a";
+}
+.icon-light-cup:before {
+content: "\e66b";
+}
+.icon-light-camera:before {
+content: "\e66c";
+}
+.icon-light-print:before {
+content: "\e66d";
+}
+.icon-light-set:before {
+content: "\e66e";
+}
+.icon-light-pinmap:before {
+content: "\e66f";
+}
+.icon-light-upload:before {
+content: "\e670";
+}
+.icon-light-edit:before {
+content: "\e671";
+}
+.icon-light-box-send:before {
+content: "\e672";
+}
+.icon-light-alert:before {
+content: "\e673";
+}
+.icon-light-open-mail:before {
+content: "\e674";
+}
+.icon-light-doctor:before {
+content: "\e675";
+}
+.icon-light-paint:before {
+content: "\e676";
+}
+.icon-light-cook:before {
+content: "\e677";
+}
+.icon-light-wine:before {
+content: "\e678";
+}
+.icon-light-cocktail:before {
+content: "\e679";
+}
+.icon-light-calendar:before {
+content: "\e67a";
+}
+.icon-light-calendar1:before {
+content: "\e67b";
+}
+.icon-light-calendar-select:before {
+content: "\e67c";
+}
+.icon-light-facebook-round:before {
+content: "\e610";
+}
+.icon-light-rss-round:before {
+content: "\e611";
+}
+.icon-light-instagram-round:before {
+content: "\e612";
+}
+.icon-light-twitter-round:before {
+content: "\e613";
+}
+.icon-light-linkedin-round:before {
+content: "\e614";
+}
+.icon-light-xing-round:before {
+content: "\e615";
+}
+.icon-light-googleplus-round:before {
+content: "\e616";
+}
+.icon-light-facebook:before {
+content: "\e617";
+}
+.icon-light-rss:before {
+content: "\e618";
+}
+.icon-light-instagram:before {
+content: "\e619";
+}
+.icon-light-twitter:before {
+content: "\e61a";
+}
+.icon-light-linkdin:before {
+content: "\e61b";
+}
+.icon-light-xing:before {
+content: "\e61c";
+}
+.icon-light-googleplus:before {
+content: "\e61d";
+}
+.icon-light-paid:before {
+content: "\e61e";
+}
+.icon-light-ordered:before {
+content: "\e61f";
+}
+.icon-light-received:before {
+content: "\e621";
+}
+.icon-light-plus-round:before {
+content: "\e623";
+}
+.icon-light-minus-round:before {
+content: "\e624";
+}
+.icon-light-zoom-in:before {
+content: "\e625";
+}
+.icon-light-zoom-out:before {
+content: "\e626";
+}
+.icon-light-refresh:before {
+content: "\e627";
+}
+.icon-light-repeat:before {
+content: "\e628";
+}
+.icon-light-question:before {
+content: "\e629";
+}
+.icon-light-info:before {
+content: "\e62a";
+}
+.icon-light-clock:before {
+content: "\e62b";
+}
+.icon-light-link:before {
+content: "\e62c";
+}
+.icon-light-lock-close:before {
+content: "\e62d";
+}
+.icon-light-lock-open:before {
+content: "\e62e";
+}
+.icon-light-computer:before {
+content: "\e62f";
+}
+.icon-light-laptop:before {
+content: "\e630";
+}
+.icon-light-mobile:before {
+content: "\e631";
+}
+.icon-light-phone:before {
+content: "\e632";
+}
+.icon-light-dialog:before {
+content: "\e633";
+}
+.icon-light-single-dialog:before {
+content: "\e634";
+}
+.icon-light-stylist:before {
+content: "\e635";
+}
+.icon-light-customer:before {
+content: "\e636";
+}
+.icon-light-like:before {
+content: "\e637";
+}
+.icon-light-dislike:before {
+content: "\e638";
+}
+.icon-light-hamburger-button:before {
+content: "\e639";
+}
+.icon-light-th-list:before {
+content: "\e63a";
+}
+.icon-light-th:before {
+content: "\e63b";
+}
+.icon-light-trash:before {
+content: "\e63c";
+}
+.icon-light-trash-in:before {
+content: "\e640";
+}
+.icon-light-card:before {
+content: "\e641";
+}
+.icon-light-cart:before {
+content: "\e642";
+}
+.icon-light-outfittery-box:before {
+content: "\e643";
+}
+.icon-light-loading:before {
+content: "\e647";
+}
+.icon-light-compass:before {
+content: "\e648";
+}
+.icon-light-sign:before {
+content: "\e649";
+}
+.icon-light-survey-laptop:before {
+content: "\e64b";
+}
+.icon-light-gift:before {
+content: "\e64d";
+}
+.icon-light-eye:before {
+content: "\e64e";
+}
+.icon-light-mail:before {
+content: "\e64f";
+}
+.icon-light-doc:before {
+content: "\e650";
+}
+.icon-light-doc-two:before {
+content: "\e651";
+}
+.icon-light-download:before {
+content: "\e653";
+}
+.icon-light-questionaire:before {
+content: "\e654";
+}
+.icon-light-pin:before {
+content: "\e655";
+}
+.icon-light-chevron-round-down:before {
+content: "\e601";
+}
+.icon-light-chevron-round-right:before {
+content: "\e602";
+}
+.icon-light-chevron-round-up:before {
+content: "\e603";
+}
+.icon-light-chevron-round-left:before {
+content: "\e604";
+}
+.icon-light-chevron-down:before {
+content: "\e605";
+}
+.icon-light-chevron-right:before {
+content: "\e606";
+}
+.icon-light-chevron-up:before {
+content: "\e607";
+}
+.icon-light-chevron-left:before {
+content: "\e608";
+}
+.icon-light-circle-arrow-round-up:before {
+content: "\e609";
+}
+.icon-light-arrow-round-down:before {
+content: "\e60a";
+}
+.icon-light-arrow-up:before {
+content: "\e60b";
+}
+.icon-light-arrow-down:before {
+content: "\e60c";
+}
+.icon-light-cross-round:before {
+content: "\e60d";
+}
+.icon-light-check-round:before {
+content: "\e60e";
+}
+.icon-light-cross:before {
+content: "\e60f";
+}
+.icon-light-check:before {
+content: "\e656";
+}

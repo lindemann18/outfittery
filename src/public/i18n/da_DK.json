@@ -1,0 +1,81 @@
+{
+  "country": {
+    "at": "\u00d6sterreich",
+    "be": "Belgi\u00eb",
+    "ch": "Schweiz",
+    "de": "Deutschland",
+    "dk": "Danmark",
+    "lu": "Luxembourg",
+    "nl": "Nederland",
+    "se": "Sverige",
+    "com": "International"
+  },
+  "menu":{
+    "overview": "Undersøgelse",
+    "myPaymentMethods": "Min betaling",
+    "myProfile": "Min profil",
+    "tellAFriend": "Inviter venner",
+    "dashboard": "Dashboard",
+    "mySettings": "Mine indstillinger",
+    "myOrders": "Mine ordrer",
+    "aboutMe": "Om mig",
+    "orderNow": "Bestil nu",
+    "contacts": "kontakt",
+    "logout": "Logout",
+    "login": "Login",
+    "changeCountry": "Skift land"
+  },
+  "pages": {
+    "app": {
+      "footer":{
+        "link1": "Handelsbetingelser",
+        "link2": "Firmainformation",
+        "link3": "Databeskyttelse"
+      },
+      "sectionHero":{
+        "title": "Din personlige stylist",
+        "content": "Har du for travlt til at shoppe?",
+        "subtitle": "Lad vores stylister klare det for dig",
+        "ctaText": "Start her"
+      },
+      "sectionBulletPoints":{
+        "title": "Sådan fungerer det",
+        "bulletPoints":{
+          "1": {
+            "title": "Fortæl os om dig selv",
+            "content": "Besvar et par spørgsmål omkring din stil, størrelser, og budget, og så vil vi forbinde dig med den stylist der passer bedst til dine behov."
+          },
+          "2": {
+            "title": "Modtag personlige stylede outfits",
+            "content": "Din stylist vil sammensætte den perfekte kombination af tøj, baseret på dine ønsker."
+          },
+          "3": {
+            "title": "Prøv det derhjemme",
+            "content": "Du har 14 dage til at prøve tøjet på. Du skal kun betale, for det tøj du vælger at beholde. Levering og retur er altid helt gratis."
+          }
+        }
+      },
+      "sectionFeature":{
+        "1": {
+          "title": "Hundredevis af mærker",
+          "content": "Opdag nye favoritter, som du aldrig ville have fundet selv",
+          "ctaText": "Prøv nu"
+        },
+        "2": {
+          "title": "Levering og retur er gratis",
+          "content": "Du har 14 dage til at prøve tøjet på. Du betaler kun for hvad du beholder. Returnering er gratis og meget let.",
+          "ctaText": "Prøv nu"
+        },
+        "3": {
+          "title": "Professionel rådgivning",
+          "content": "Lad vores stylister gøre det de gør bedst. Så du kan fokusere på de vigtige ting i livet.",
+          "ctaText": "Prøv nu"
+        }
+      },
+      "sectionSentence":{
+        "sentence": "Überlasse unseren Profis das Thema Kleidung und spare Zeit für die wichtigen Dinge im Leben.",
+        "ctaText": "Prøv nu"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+/* Logo
+ * The following variables are just to keep the proportions of the logo, so the exact measurements
+ * are not relevant. The size of the logo will be defined by the width of the container.
+ */
+$logo-height: 100px
+$logo-width: 674px
+$logo-margin: 25px
+
+.logo
+  padding: $logo-margin/$logo-width * 100%
+
+.logo__inner
+  display: block
+  background-image: url("shared/img/logo/logo-black.svg")
+  background-position: center
+  background-size: contain
+  background-repeat: no-repeat
+  padding-bottom: $logo-height/$logo-width * 100%
+  height: 0
+  width: 100%

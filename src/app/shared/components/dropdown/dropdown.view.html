@@ -1,0 +1,14 @@
+<div class="dropdown">
+  <img ng-if="$ctrl.icon" src="{{$ctrl.icon}}" alt="{{$ctrl.label}}">
+  <h4>{{$ctrl.label | translate}}</h4>
+  <div class="select-wrapper">
+    <select
+      class="form-control"
+      value="{{$ctrl.value}}"
+      ng-model="$ctrl.value"
+      name="dropdown"
+      ng-options="item as item+($ctrl.unit || '') for item in $ctrl.range"
+      ng-change="$ctrl.onChange()">
+    </select>
+  </div>
+</div>

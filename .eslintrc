@@ -1,0 +1,34 @@
+{
+  "extends": [ "airbnb-base", "angular" ],
+  "globals": {
+    "describe": false,
+    "beforeEach": false,
+    "it": false,
+    "expect": false,
+    "jasmine": false
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    // IMPORTANT: before disabling a rule please make sure there is a reason to do it.
+    // Sometimes it's needed, but in most of the cases, the rule is there for a reason
+    // and it's very likely you might be trying to do something wrong.
+    // If you decide to disable a rule globally please add a short explanation about why.
+
+    // Param reassign is needed in Angular to, for example, add things to a scope that is injected
+    // into the component
+    // http://eslint.org/docs/rules/no-param-reassign
+    "no-param-reassign": 0,
+    // We decided to keep underscore dangles for private methods because we consider actual
+    // private methods is a bit cumbersome and unnecessary when we are not exposing our
+    // libraries to the public
+    // http://eslint.org/docs/rules/no-underscore-dangle
+    "no-underscore-dangle": 0
+  },
+  "settings": {
+    "import/resolver": webpack,
+  }
+}

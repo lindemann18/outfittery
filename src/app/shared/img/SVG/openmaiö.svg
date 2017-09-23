@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="25px" height="28px" viewBox="0 0 25 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>openmaiö</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="24.0817 0.0001 0 0.0001 0 27.4957 24.0817 27.4957 24.0817 0.0001"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A4-Copy" transform="translate(-389.000000, -649.000000)">
+            <g id="openmaiö" transform="translate(389.000000, 649.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M11.4297,1.2197 C11.7357,0.9137 12.2667,0.9157 12.5707,1.2197 L22.5377,11.1877 L1.4617,11.1877 L11.4297,1.2197 Z M15.9247,20.0117 L23.0817,12.8717 L23.0817,25.9337 L15.9247,20.0117 Z M11.3837,18.7477 C11.8257,18.4077 12.4167,18.3977 12.8027,18.7287 L22.1927,26.4957 L1.9847,26.4957 L11.3837,18.7477 Z M1.0917,12.8597 L8.2787,20.0117 L1.0917,25.9357 L1.0917,12.8597 Z M13.4487,17.9637 C12.7117,17.3287 11.5877,17.3257 10.7597,17.9667 L9.0537,19.3727 L1.8337,12.1877 L22.3527,12.1877 L15.1507,19.3717 L13.4487,17.9637 Z M23.9517,11.1877 L13.2777,0.5127 C12.5957,-0.1713 11.4067,-0.1713 10.7227,0.5127 L-0.0003,11.2357 L0.0917,11.3267 L0.0917,27.4957 L24.0817,27.4957 L24.0817,11.1877 L23.9517,11.1877 Z" id="Fill-1" fill="#333332" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

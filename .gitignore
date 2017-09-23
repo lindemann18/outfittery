@@ -1,0 +1,8 @@
+node_modules
+dist
+coverage
+.idea/
+npm-debug.log
+*.iml
+.DS_Store
+package-lock.json

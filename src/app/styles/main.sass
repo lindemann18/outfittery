@@ -1,0 +1,363 @@
+@import "~styles/variables.sass"
+@import "~styles/mixins.sass"
+
+@font-face
+  font-family: "Gotham"
+  src: url("shared/fonts/gotham-medium-webfont.eot")
+  src: url("~shared/fonts/gotham-medium-webfont.ttf") format("truetype")
+  src: url("~shared/fonts/gotham-medium-webfont.woff") format("woff")
+  src: url("~shared/fonts/gotham-medium-webfont.woff2") format("woff2")
+  font-weight: 500
+  font-style: normal
+
+@font-face
+  font-family: "OpenSans"
+  src: url("shared/fonts/opensans-regular-webfont.eot")
+  src: url("~shared/fonts/opensans-regular-webfont.ttf") format("truetype")
+  src: url("~shared/fonts/opensans-regular-webfont.woff") format("woff")
+  src: url("~shared/fonts/opensans-regular-webfont.woff2") format("woff2")
+  font-weight: 500
+  font-style: normal
+
+@font-face
+  font-family: "Gotham"
+  src: url("~shared/fonts/gotham-bold-webfont.eot")
+  src: url("~shared/fonts/gotham-bold-webfont.ttf") format("truetype")
+  src: url("~shared/fonts/gotham-bold-webfont.woff") format("woff")
+  src: url("~shared/fonts/gotham-bold-webfont.woff2") format("woff2")
+  font-weight: 700
+  font-style: normal
+
+@font-face
+  font-family: "Lato"
+  src: url("~shared/fonts/LatoLatin-Regular.eot")
+  src: url("~shared/fonts/LatoLatin-Regular.ttf") format("truetype")
+  src: url("~shared/fonts/LatoLatin-Regular.woff") format("woff")
+  src: url("~shared/fonts/LatoLatin-Regular.woff2") format("woff2")
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: "Lato"
+  src: url("~shared/fonts/LatoLatin-Bold.eot")
+  src: url("~shared/fonts/LatoLatin-Bold.ttf") format("truetype")
+  src: url("~shared/fonts/LatoLatin-Bold.woff") format("woff")
+  src: url("~shared/fonts/LatoLatin-Bold.woff2") format("woff2")
+  font-weight: 700
+  font-style: normal
+
+body
+  background-color: $background
+
+body *, body *:before, body *:after
+  box-sizing: border-box
+  font-family: 'Light-Outfittery-Iconset', Gotham
+
+p, input, select, li, td
+  font-family: Lato
+
+a, a:visited
+  color: $brand-primary
+  text-decoration: none
+
+a:hover, a:active, a:focus
+  color: $brand-primary-darken
+  text-decoration: underline
+
+.black-link
+  font-size: 14px
+  font-weight: bold
+  line-height: 1.5
+  color: #333333
+
+hr
+  border-top: 0.8px solid #cecece
+
+h1
+  color: $charcoal-grey
+  font-size: 30px
+  font-weight: 700
+  letter-spacing: $header-letter-spacing
+
+h2
+  font-size: 20px
+  font-weight: 700
+  color: $charcoal-grey
+  letter-spacing: $header-letter-spacing
+
+h3
+  font-size: 18px
+  font-weight: 700
+  color: $charcoal-grey
+  letter-spacing: $header-letter-spacing
+
+h4
+  font-size: 16px
+  font-weight: 700
+  color: $charcoal-grey
+  letter-spacing: $header-letter-spacing
+
+h5
+  font-family: Gotham
+  font-size: 16px
+  font-weight: 500
+  font-style: normal
+  font-stretch: normal
+  line-height: 1.5
+  color: $charcoal-grey
+  letter-spacing: $header-letter-spacing
+
+:focus
+  outline: none !important
+
+:active
+  box-shadow: none !important
+
+.hide-xxs
+  display: none
+
+.full-width-container
+  width: 100%
+  padding: 0
+
+.light
+  background-color: #fff
+
+.dashboard-col
+  max-width: 940px
+  margin: 0 auto
+  padding: 120px 0 40px
+  @include breakpoint('sm')
+    padding-left: 40px
+    padding-right: 40px
+  @include breakpoint('xs')
+    padding-left: 30px
+    padding-right: 30px
+  @include breakpoint('xxs')
+    padding-left: 15px
+    padding-right: 15px
+
+.full-width-on-touchscreen
+  @include breakpoint('sm')
+    padding-left: 0
+    padding-right: 0
+  @include breakpoint('xs')
+    padding-left: 0
+    padding-right: 0
+  @include breakpoint('xxs')
+    padding-left: 0
+    padding-right: 0
+
+.user-col
+  width: $max-width
+  padding: 25px 64px
+  margin: 0 auto
+  background: white
+  border-radius: $default-border-radius
+
+.mainStyleItem
+  margin-top: 20px
+  cursor: pointer
+  padding: 1px 20px
+
+.alert
+  font-family: Gotham
+  font-size: 16px
+  font-weight: 500
+  min-height: 60px
+  border-radius: 2px
+  color: white
+  border: none
+  padding: 19px
+
+.alert-dismissable, .alert-dismissable
+  padding-right: 30px
+
+.alert-dismissable .close, .alert-dismissible .close
+  position: relative
+  top: -3px
+  right: 0px
+  color: #fff
+  text-shadow: none
+  opacity: 1
+  font-size: 24px
+
+.alert-warning
+  background-color: $brand-primary
+
+.alert-danger
+  background-color: #ed001d
+
+.alert-success
+  background-color: $light-grey-blue
+  @include breakpoint('sm')
+    background-color: lightgreen
+  @include breakpoint('xs')
+    background-color: lightblue
+  @include breakpoint('xxs')
+    background-color: salmon
+
+.form-group
+  margin-bottom: 6px
+  &.row
+    margin-left: -4px
+    margin-right: -4px
+  *[class^="col-"]
+    padding-right: 4px
+    padding-left: 4px
+
+.form-control
+  border-radius: 0
+  border: solid 1px #d9d9d9
+  padding: 10px 14px
+  font-size: 14px
+  line-height: 1
+  height: 44px
+  color: #7d8997
+  box-shadow: none
+
+.select-wrapper
+  position: relative
+  z-index: 0
+  &:before
+    position: absolute
+    top: 20px
+    right: 25px
+    content: ''
+    padding: 0
+    border: 7px transparent solid
+    border-top-color: #bdc6cf
+    z-index: 1
+
+select.form-control
+  position: relative
+  z-index: 2
+  -webkit-appearance: none
+  -moz-appearance: none
+  appearance: none
+  cursor: pointer
+  background-color: transparent
+
+.select-placeholder
+  color: #C8C8C8
+
+.ps-checkbox, .ps-radio
+  position: relative
+  &.disabled,
+  &.disabled label
+    cursor: not-allowed
+
+label
+  letter-spacing: $label-letter-spacing
+  cursor: pointer
+
+.customer-account__main
+  z-index: -1
+  max-height: 50000px
+  transition: max-height $animation-length
+
+  &.hidden
+    max-height: 0px
+    @include breakpoint('sm')
+      max-height: 50000px
+    @include breakpoint('md')
+      max-height: 50000px
+    @include breakpoint('lg')
+      max-height: 50000px
+
+.ps-checkbox input[type='checkbox'],
+.ps-radio input[type='radio']
+  &:checked,
+  &:not(:checked)
+  visibility: hidden
+  display: none
+
+  & + label:before
+    position: absolute
+    visibility: visible
+    vertical-align: baseline
+    top: 0
+    left: 0
+    content: ''
+    width: 16px
+    height: 16px
+    border-radius: 1px
+    background-color: transparent
+    border: solid 1px $brand-primary
+  &:checked + label:before
+    background-color: $brand-primary
+
+.back-white
+  background-color: white
+.uppercase
+  text-transform: uppercase
+.btn
+  display: inline-block
+  padding: 20px 50px
+  font-size: 18px
+  font-weight: 700
+  line-height: 1
+  letter-spacing: $button-letter-spacing
+  text-align: center
+  white-space: nowrap
+  vertical-align: middle
+  border: 1px solid transparent
+  border-radius: 2px
+
+.btn-default, .btn-default:visited
+  border: solid 1px $brand-primary
+  color: $brand-primary
+  background-color: transparent
+
+.btn-default.active.focus,
+.btn-default.active:focus,
+.btn-default.active:hover,
+.btn-default:active.focus,
+.btn-default:active:focus,
+.btn-default:active:hover,
+.btn-default:hover
+  color: $brand-primary-darken
+  background-color: transparent
+  border-color: $brand-primary-darken
+
+.btn-outline, .btn-outline:visited
+  border: solid 1px black
+  color: black
+  background-color: transparent
+
+.btn-primary, .btn-primary:visited
+  background-color: $brand-primary
+  border-color: $brand-primary
+  color: white
+  &:hover, &:active, &:focus
+    background-color: $brand-primary-darken !important
+    border-color: $brand-primary-darken !important
+    color: white !important
+
+.btn-link
+  padding: 14px 0
+  text-transform: capitalize
+  text-decoration: underline
+  font-size: 14px
+  font-weight: bold
+  line-height: 1.5
+  color: #333333 !important
+
+.btn-icon
+  padding: 0 6px
+  display: inline
+  vertical-align: baseline
+  text-decoration: none
+  font-size: 20px
+  background-color: transparent
+
+.btn-rounded
+  padding: 12px 23px
+  border-radius: 30px
+  font-size: 13px
+  height: auto
+
+.payment-icon
+  width: 60px
+  height: 36px
+  background-color: #f8f8f8

@@ -1,0 +1,81 @@
+{
+  "country": {
+    "at": "\u00d6sterreich",
+    "be": "Belgi\u00eb",
+    "ch": "Schweiz",
+    "de": "Deutschland",
+    "dk": "Danmark",
+    "lu": "Luxembourg",
+    "nl": "Nederland",
+    "se": "Sverige",
+    "com": "International"
+  },
+  "menu":{
+    "overview": "Overview",
+    "myPaymentMethods": "My payment methods",
+    "myProfile": "My Profile",
+    "tellAFriend": "Tell a friend",
+    "dashboard": "Dashboard",
+    "mySettings": "My Settings",
+    "myOrders": "My Orders",
+    "aboutMe": "About me",
+    "orderNow": "Order now",
+    "contacts": "Contacts",
+    "logout": "Logout",
+    "login": "Login",
+    "changeCountry": "Change country"
+  },
+  "pages": {
+    "app": {
+      "footer":{
+        "link1": "Terms",
+        "link2": "Imprint",
+        "link3": "Privacy"
+      },
+      "sectionHero":{
+        "title": "Your personal stylist",
+        "content": "Too busy to worry about clothes shopping?",
+        "subtitle": "Let our stylists shop for your",
+        "ctaText": "Get started"
+      },
+      "sectionBulletPoints":{
+        "title": "How it works",
+        "bulletPoints":{
+          "1": {
+            "title": "Tell us about yourself",
+            "content": "Answer a few questions about your style,sizes, and budget and we will connect you with the best stylist to suit you."
+          },
+          "2": {
+            "title": "Receive personally styled outfits",
+            "content": "Your stylist will put together the perfect combination of clothes based on your preferences"
+          },
+          "3": {
+            "title": "Try on at home",
+            "content": "You have 14 days to try on the outfits. Only pay for the items you keep. "
+          }
+        }
+      },
+      "sectionFeature":{
+        "1": {
+          "title": "Hundreds of brands",
+          "content": "Find new favourites, which you would never have found by yourself",
+          "ctaText": "Try now"
+        },
+        "2": {
+          "title": "Delivery and return shipping is free",
+          "content": "You have 14 days to try on the items. Only pay for what you keep. Returns are free and super easy.",
+          "ctaText": "Try now"
+        },
+        "3": {
+          "title": "Professional advice",
+          "content": "Let our stylists do what they do best. So you can focus on what you care about most.",
+          "ctaText": "Try now"
+        }
+      },
+      "sectionSentence":{
+        "sentence": "Überlasse unseren Profis das Thema Kleidung und spare Zeit für die wichtigen Dinge im Leben.",
+        "ctaText": "Jetzt loslegen"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="33px" height="21px" viewBox="0 0 33 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>belt</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 20.6182 31.975 20.6182 31.975 0.0002 0 0.0002"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A4-Copy" transform="translate(-21.000000, -157.000000)">
+            <g id="belt" transform="translate(22.000000, 157.000000)">
+                <g id="Group-4" transform="translate(0.000000, 9.618200)">
+                    <path d="M9.4887,9.6309 L2.4997,9.6309 C1.3997,9.6309 0.4997,8.7309 0.4997,7.6309 L0.4997,2.9369 C0.4997,1.8369 1.3997,0.9369 2.4997,0.9369 L9.4887,0.9369" id="Fill-1" fill="#FEFEFE"></path>
+                    <path d="M9.4887,9.6309 L2.4997,9.6309 C1.3997,9.6309 0.4997,8.7309 0.4997,7.6309 L0.4997,2.9369 C0.4997,1.8369 1.3997,0.9369 2.4997,0.9369 L9.4887,0.9369" id="Stroke-3" stroke="#333332"></path>
+                </g>
+                <g id="Group-8" transform="translate(2.000000, 11.618200)">
+                    <path d="M6.4194,5.6849 L1.6384,5.6849 C1.0234,5.6849 0.5214,5.1819 0.5214,4.5679 L0.5214,1.9369 C0.5214,1.3219 1.0234,0.8189 1.6384,0.8189 L6.4194,0.8189" id="Fill-5" fill="#FEFEFE"></path>
+                    <path d="M6.4194,5.6849 L1.6384,5.6849 C1.0234,5.6849 0.5214,5.1819 0.5214,4.5679 L0.5214,1.9369 C0.5214,1.3219 1.0234,0.8189 1.6384,0.8189 L6.4194,0.8189" id="Stroke-7" stroke="#333332"></path>
+                </g>
+                <path d="M31.475,5.328 L31.475,14.219 L31.475,14.225 C31.475,17 26.982,19.25 21.439,19.25 L8.308,19.25 L8.308,10.556 L21.439,10.556 C26.982,10.556 31.475,8.306 31.475,5.531 L31.475,5.524 C31.475,2.75 26.982,0.5 21.439,0.5 C17.005,0.5 13.411,2.3 13.411,4.52 C13.411,6.296 16.985,7.735 21.24,7.735 C24.078,7.735 26.378,6.583 26.378,5.163 C26.378,4.026 24.538,3.105 22.268,3.105 C20.689,3.105 19.703,3.534 19.203,4.167 C18.735,4.761 18.422,5.605 17.955,7.395" id="Stroke-9" stroke="#333332"></path>
+                <path d="M13.4107,4.5196 L13.4107,10.5556" id="Stroke-11" stroke="#333332"></path>
+                <path d="M26.379,5.1627 L26.379,9.8547" id="Stroke-13" stroke="#333332"></path>
+                <g id="Group-18" transform="translate(0.000000, 14.618200)">
+                    <path d="M8.7659,0.2626 L0.3909,0.2626" id="Fill-15" fill="#FEFEFE"></path>
+                    <path d="M8.7659,0.2626 L0.3909,0.2626" id="Stroke-17" stroke="#333332"></path>
+                </g>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-20"></g>
+                <polygon id="Fill-19" fill="#FEFEFE" mask="url(#mask-2)" points="10.98 20.1182 14.333 20.1182 14.333 9.8042 10.98 9.8042"></polygon>
+                <polygon id="Stroke-21" stroke="#333332" mask="url(#mask-2)" points="10.98 20.1182 14.333 20.1182 14.333 9.8042 10.98 9.8042"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

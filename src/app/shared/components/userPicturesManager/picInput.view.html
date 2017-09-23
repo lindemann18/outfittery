@@ -1,0 +1,30 @@
+<div class="pic-input">
+  <div class="my-pictures__subtitle" translate="components.myPhotos.subtitle">
+    Photos can be seen by your stylist team. You can update or delete them at any time.
+  </div>
+  <div class="pic-input__drag">
+    <drag-drop-input on-files-dropped="$ctrl.onFilesDropped(files)"></drag-drop-input>
+  </div>
+  <div class="pic-input__buttons">
+    <div>
+      <input id="btn-upload-from-pc" type="file" class="pic-input__input" multiple
+             onchange="angular.element(this).scope().setFilesFromPc(this)">
+      <label
+          for="btn-upload-from-pc"
+          class="btn btn-primary btn-upload-pc rounded"
+          translate="components.uploadPic.local"
+          >
+        FROM COMPUTER
+      </label>
+    </div>
+    <div>
+      <button
+          class="btn btn-upload-facebook rounded"
+          ng-click="$ctrl.connectToFacebook()"
+          translate="components.uploadPic.facebook"
+          >
+        FROM FACEBOOK
+      </button>
+    </div>
+  </div>
+</div>

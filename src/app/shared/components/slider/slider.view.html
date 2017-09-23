@@ -1,0 +1,18 @@
+<div class="row slider">
+  <div class="slider__title col-lg-4 col-md-4 col-sm-12">
+    <img ng-if="$ctrl.icon" src="{{$ctrl.icon}}" alt="{{$ctrl.label}}">
+    <p>{{$ctrl.label | translate}}</p>
+  </div>
+  <div class="slider__value col-lg-8 col-md-8 col-sm-12">
+    <input
+      type="range"
+      min="{{$ctrl.range[0]}}"
+      step="{{$ctrl.range[1]}}"
+      max="{{$ctrl.range[2]}}"
+      value="{{$ctrl.value}}"
+      ng-model="$ctrl.value"
+      name="slider"
+    />
+    value: {{$ctrl.value}}
+  </div>
+</div>

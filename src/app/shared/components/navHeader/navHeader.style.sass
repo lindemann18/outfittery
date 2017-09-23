@@ -1,0 +1,47 @@
+$navHeader-height: 60px
+
+.navHeader
+  height: $navHeader-height
+
+.navHeader__fixed
+  display: flex
+  color: white
+  background-color: #222
+  height: $navHeader-height
+  background-color: white
+  position: fixed
+  width: 100%
+  z-index: 1
+
+.navHeader__logo
+  width: 200px
+  align-self: center
+  padding: 10px
+  margin-left: -5px
+
+.navHeader__menu
+  display: flex
+  justify-content: flex-end
+  flex-grow: 2
+  padding: 10px
+
+.navHeader__menu-icon
+  background-image: url('shared/img/SVG/hamburger.svg')
+  background-repeat: no-repeat
+  background-size: contain
+  height: 18px
+  width: 26px
+  align-self: center
+
+.navHeader__menu-icon--cross
+  background-image: url('shared/img/SVG/cross.svg')
+
+.navHeader__nav-container
+  position: fixed
+  color: black
+  background-color: #EEEEEE
+  top: $navHeader-height
+  left: 0
+  right: 0
+  bottom: 0
+  overflow-y: scroll

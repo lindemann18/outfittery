@@ -1,0 +1,91 @@
+@import "~styles/mixins.sass"
+@import "~styles/variables.sass"
+
+.user-pictures
+  @include breakpoint('desktop')
+    padding: 0px 36px
+  @include breakpoint('mobile')
+    padding: 0px
+  .user-pictures__container
+    margin-left: 0px
+    margin-right: 0px
+  .user-picture
+    height: 100%
+    width: 100%
+    background-size: cover !important
+    background-repeat: no-repeat !important
+    margin: 0 0 10px
+    position: relative
+  .user-avatar-pick
+    button
+      width: 100%
+  .user-pics-updload
+    margin-top: 40px
+    @include breakpoint('mobile')
+      margin-top: 15px
+  .selected
+    max-width: 100%
+    opacity: 0.3
+    filter: alpha(opacity=30)
+  .user-pictures__image
+    padding: 0px
+    position: relative
+    min-height: 100px
+    overflow: hidden
+    @include breakpoint('desktop')
+      height: 166px
+      margin-bottom: 16px
+      &.user-pictures__image-left
+        padding-right: 8px
+      &.user-pictures__image-right
+        padding-left: 8px
+    @include breakpoint('mobile')
+      height: 121px
+      margin-bottom: 8px
+      &.user-pictures__image-left
+        padding-right: 4px
+      &.user-pictures__image-right
+        padding-left: 4px
+
+    .uploading
+      &::after
+        content: "Uploading..."
+        opacity: 0.5
+        top: 90px
+        left: 25%
+        bottom: 0
+        position: absolute
+        z-index: 9999
+        font-size: 1.4em
+        color: black
+    .img
+      position: absolute
+      width: 166px
+
+    .btn.btn-danger.btn-remove-picture
+      padding: 5px
+      font-size: 1em
+      height: 25px
+      border-radius: 0px 0px 4px 4px
+      width: 100%
+
+    .wrapper
+      position: relative
+      display: inline-block
+
+    .close
+      text-shadow: none
+      &:before
+        content: '✕'
+        color: white
+        background-color: #2880a3
+        border-radius: 40px
+        padding-left: 3px
+        padding-right: 4px
+
+    .close
+      position: absolute
+      top: 9px
+      right: 6px
+      cursor: pointer
+      opacity: 1.0

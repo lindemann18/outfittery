@@ -1,0 +1,61 @@
+<!--<pre style="background-color: #febbbb">prepayment component: {{$ctrl|json}}</pre>-->
+
+<div class="payment-selection page-container">
+
+  <div class="container">
+    <h3 class="payment-selection__title" translate="components.paymentSelection.title">ADD A PAYMENT METHOD</h3>
+    <p class="payment-selection__subtitle" translate="components.paymentSelection.encrypted">This page is SSL encrypted to protect your privacy.</p>
+
+    <div class="payment-selection__container">
+      <div class="payment-selection__option select-wrapper">
+        <select class="form-control" ng-change="$ctrl.openForm()" ng-model='$ctrl.paymentOption' ng-init="$ctrl.paymentOption = '0'">
+          <option translate="components.paymentSelection.selectPayment" value='0'>
+            Select payment method
+          </option>
+          <option translate="components.paymentSelection.creditCard" ng-if="::$ctrl.paymentTypes.allowedPaymentMethods.indexOf(2) >= 0" value='2'>
+            Credit Card
+          </option>
+          <option translate="components.paymentSelection.paypal" ng-if="::$ctrl.paymentTypes.allowedPaymentMethods.indexOf(7) >= 0" value='7'>
+            PayPal
+          </option>
+        </select>
+      </div>
+    </div>
+
+    <div class="creditcard-container" ng-if="$ctrl.isCreditCard()">
+      <form action="{{$ctrl.creditCard.form}}" class="paymentWidgets"></form>
+      <lazy-script async src="$ctrl.creditCard.script"></lazy-script>
+    </div>
+  </div>
+
+  <div ng-if="$ctrl.isPaypal()">
+    <div class="container paypal">
+      <form id="paypal-form" method="post" target='_parent' action="{{$ctrl.paypal.form}}">
+        <input id="payment_method_data" type="hidden" name="payment_method_data"/>
+
+        <div id="paypal-container"></div>
+      </form>
+    </div>
+
+    <lazy-script src="$ctrl.paypal.script" ng-hide="true">
+      function hasClass(element, cls) {
+        return (' ' + element.className + ' ').indexOf(' ' + cls + ' ') > -1;
+      }
+      braintree.setup("{{$ctrl.paypal.token}}", "custom", {
+        paypal: {
+          container: "paypal-container",
+          singleUse: false,
+          billingAgreementDescription: "{{$billingAgreementDescription}}"
+        },
+        dataCollector: {
+          paypal: true
+        },
+        onReady: function () {},
+        onPaymentMethodReceived: function (obj) {
+          document.getElementById('payment_method_data').value = JSON.stringify(obj);
+          document.getElementById('paypal-form').submit();
+        }
+      });
+    </lazy-script>
+  </div>
+</div>

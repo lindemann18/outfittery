@@ -1,0 +1,41 @@
+/* Breakpoints */
+
+
+@mixin breakpoint($min: 0, $max: 0) 
+  $type: type-of($min)
+  @if $type == string
+
+    @if $min == xxs 
+      @media (max-width: 479px)                           // Mobile 1
+        @content   
+
+    @else if $min == xs 
+      @media (min-width: 480px) and (max-width: 767px)    // Mobile 2
+        @content                           
+    
+    @else if $min == sm
+      @media (min-width: 768px) and (max-width: 939px)    // Tablets
+        @content    
+
+    @else if $min == md 
+      @media (min-width: 940px) and (max-width: 1199px)   // Desktops
+        @content  
+
+    @else if $min == lg 
+      @media (min-width: 1200px)                          // Large screens
+        @content                         
+
+    @else
+      @warn "Only supports xs, sm, md, lg";
+
+  @else if $type == number
+    // Custom min and max 
+    $query: "all" !default
+    @if      $min != 0 and $max != 0 
+      $query: "(min-width: #{$min}) and (max-width: #{$max})" // set both min and max
+    @else if $min != 0 and $max == 0 
+      $query: "(min-width: #{$min})"                          // set just min
+    @else if $min == 0 and $max != 0 
+      $query: "(max-width: #{$max})"                          // set just max
+    @media #{$query}
+      @content

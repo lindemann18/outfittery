@@ -1,0 +1,9 @@
+<div ng-init="$ctrl.bindDragEvents()"
+     id="user-images-dragdrop"
+     class="drag-drop-input"
+     droppable="<%= true %>" ng-class="{ 'drag-drop-input--dragging': $ctrl.dragOver }">
+  <img src="~shared/img/SVG/camera.svg">
+  <span translate="components.dragAndDropPhotos.dragAndDropPhotos" class="bold">
+    Drag and drop your photos here
+  </span>
+</div>

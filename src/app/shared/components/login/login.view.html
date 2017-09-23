@@ -1,0 +1,41 @@
+<div class="change-password">
+  <div class="container">
+    <h3 translate="components.login.title">Login</h3>
+    <form name="login"
+          ng-submit="$ctrl.login(login.$dirty && login.$valid)"
+          novalidate="novalidate">
+      <div>
+        <label translate="components.login.email" name="emailAddress">EMAIL ADDRESS</label>
+        <input
+          required name="emailAddress"
+          ng-model="$ctrl.emailAddress"
+          placeholder="{{'components.login.placeholder.email' | translate}}"
+          class="form-control"
+        />
+        <div ng-messages="login.emailAddress.$error" role="alert" ng-hide="login.emailAddress.$pristine && !login.$submitted">
+          <p translate="components.login.mandatory" ng-message="required">This filed is mandatory.</p>
+        </div>
+      </div>
+
+      <div>
+        <label translate="components.login.password" name="userPassword">PASSWORD</label>
+        <input 
+          required type="password"
+          name="userPassword"
+          ng-model="$ctrl.userPassword"
+          class="form-control"
+          placeholder="{{'components.login.placeholder.password' | translate}}"
+          user-password
+        />
+        <div ng-messages="login.userPassword.$error" role="alert" ng-hide="login.userPassword.$pristine && !login.$submitted">
+          <!-- <p ng-message="minlength">Password is too short.</p> add if you reinstate minlength=n above-->
+          <p translate="components.login.mandatory" ng-message="required">This filed is mandatory.</p>
+        </div>
+      </div>
+
+      <div>
+        <input type="submit" name="submit" translate-attr="{value: components.login.submit}" class="btn btn-primary">
+      </div>
+    </form>
+  </div>
+</div>

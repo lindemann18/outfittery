@@ -1,0 +1,27 @@
+@import "~styles/variables.sass"
+@import "~styles/mixins.sass"
+
+.drag-drop-input
+  height: 100%
+  width: 100%
+  display: flex
+  flex-flow: column
+  align-items: center
+  justify-content: center
+  padding: 30px
+  font-size: 18px
+  line-height: 30px
+  color: #a2a1a1
+  border-radius: $default-border-radius
+  text-align: center
+
+  span
+    margin-top: 10px
+    font-family: Lato
+    font-size: 16px
+
+  &, *
+    transition: .2s
+
+  &.drag-drop-input--dragging
+    background-color: lighten(#000, 93.5%)

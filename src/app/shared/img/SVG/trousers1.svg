@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="25px" height="24px" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>trousers1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A4-Copy" transform="translate(-98.000000, -77.000000)">
+            <g id="trousers1" transform="translate(98.000000, 77.000000)">
+                <polygon id="Stroke-1" stroke="#333332" points="23.515 2.7227 17.428 2.3397 1.985 22.9357 16.558 22.9357"></polygon>
+                <path d="M0.7085,0.5 L13.1375,0.5 C13.1375,0.5 13.3415,10.697 16.1965,14.776 L16.1965,22.934 L0.5045,22.934 L0.7085,0.5 Z" id="Fill-3" fill="#FEFEFE"></path>
+                <path d="M0.7085,0.5 L13.1375,0.5 C13.1375,0.5 13.3415,10.697 16.1965,14.776 L16.1965,22.934 L0.5045,22.934 L0.7085,0.5 L0.7085,0.5 Z" id="Stroke-5" stroke="#333332"></path>
+                <polyline id="Stroke-7" stroke="#333332" points="10.3338 8.3086 7.2058 8.3086 4.0768 8.3086"></polyline>
+                <polygon id="Stroke-9" stroke="#333332" points="13.1375 4.2593 0.9125 4.2593 0.6885 4.2593 0.7085 0.5003 13.1375 0.5003"></polygon>
+                <path d="M7.6046,13.5232 L7.6046,23.0232" id="Stroke-11" stroke="#333332"></path>
+                <path d="M15.4379,12.8565 L20.1049,2.8565" id="Stroke-13" stroke="#333332"></path>
+            </g>
+        </g>
+    </g>
+</svg>

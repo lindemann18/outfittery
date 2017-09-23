@@ -1,0 +1,12 @@
+<div class="user-pictures">
+  <div class="user-pictures__container row">
+    <div class="user-pictures__image col-lg-6 col-md-6 col-sm-6 col-xs-6" ng-class="{'user-pictures__image-left': $index%2===0, 'user-pictures__image-right': $index%2!==0}" ng-repeat="picture in $ctrl.pictures track by $index">
+      <figure class="user-picture" ng-class="{uploading: !picture.id, selected: picture.selected}" style="background: url({{picture.base64 ? picture.base64 : picture.url}});">
+        <span class="close" ng-show="picture.id" ng-click="$ctrl.removeImage($index)"></span>
+      </figure>
+    </div>
+  </div>
+  <div class="user-pics-updload">
+    <pic-input on-change="$ctrl.onInputChange(pictureFile)" picture-files="$ctrl.pictureFiles"></pic-input>
+  </div>
+</div>

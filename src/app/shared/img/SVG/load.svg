@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="19px" height="30px" viewBox="0 0 19 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>load</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A4-Copy" transform="translate(-411.000000, -443.000000)" fill="#333332">
+            <g id="load" transform="translate(411.000000, 443.000000)">
+                <path d="M0,-3.55271368e-15 L0,22.837 L6.06,22.837 L6.06,21.837 L1,21.837 L1,1 L12.558,1 L12.558,6.085 L17.673,6.085 L17.673,21.837 L12.74,21.837 L12.74,22.837 L18.673,22.837 L18.673,4.853 L13.802,-3.55271368e-15 L0,-3.55271368e-15 Z M13.558,1.168 L17.489,5.085 L13.558,5.085 L13.558,1.168 Z" id="Fill-1"></path>
+                <polygon id="Fill-2" points="8.8992 14.0328 8.8992 27.9678 6.2242 25.2918 5.5182 25.9988 9.3992 29.8818 13.2822 25.9988 12.5752 25.2918 9.8992 27.9678 9.8992 14.0328"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

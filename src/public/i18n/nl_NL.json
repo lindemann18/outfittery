@@ -1,0 +1,81 @@
+{
+  "country": {
+    "at": "\u00d6sterreich",
+    "be": "Belgi\u00eb",
+    "ch": "Schweiz",
+    "de": "Deutschland",
+    "dk": "Danmark",
+    "lu": "Luxembourg",
+    "nl": "Nederland",
+    "se": "Sverige",
+    "com": "International"
+  },
+  "menu":{
+    "overview": "Overzicht",
+    "myPaymentMethods": "Mijn Betaling",
+    "myProfile": "Mijn profiel",
+    "tellAFriend": "Nodig vrienden",
+    "dashboard": "Dashboard",
+    "mySettings": "Mijn instellingen",
+    "myOrders": "Mijn bestellingen",
+    "aboutMe": "Over mij",
+    "orderNow": "Nu bestellen",
+    "contacts": "Contact",
+    "logout": "Logout",
+    "login": "Login",
+    "changeCountry": "Land wijzigen"
+  },
+  "pages": {
+    "app": {
+      "footer":{
+        "link1": "Algemene Voorwaarden",
+        "link2": "Imprint",
+        "link3": "Privacy"
+      },
+      "sectionHero":{
+        "title": "Jouw persoonlijke stylist",
+        "content": "Je hebt geen tijd om te shoppen?",
+        "subtitle": "Onze stylisten shoppen voor jou!",
+        "ctaText": "Begin hier"
+      },
+      "sectionBulletPoints":{
+        "title": "Zo werkt het",
+        "bulletPoints":{
+          "1": {
+            "title": "Vertel iets over jezelf",
+            "content": "Beantwoord kort een paar vragen over jouw stijl, maten en budget. Wij koppelen je dan aan een passende stylist."
+          },
+          "2": {
+            "title": "Ontvang jouw persoonlijke outfits",
+            "content": "Jouw stylist stelt aan de hand van jouw gegevens een passende box voor jou samen."
+          },
+          "3": {
+            "title": "Thuis passen",
+            "content": "Je hebt 14 dagen de tijd om thuis alles te passen. Je betaalt dat wat je behoudt. Het retourneren is kosteloos."
+          }
+        }
+      },
+      "sectionFeature":{
+        "1": {
+          "title": "Meer dan 100 merken",
+          "content": "Ontdek nieuwe lievelingsitems, die je zelf nooit ontdekt zou hebben!",
+          "ctaText": "Nu proberen"
+        },
+        "2": {
+          "title": "Kosteloze zending",
+          "content": "Het versturen en retourneren van de box is eenvoudig en kosteloos.",
+          "ctaText": "Nu proberen"
+        },
+        "3": {
+          "title": "Professioneel stijladvies",
+          "content": "Laat het uitzoeken van de kleding over aan onze stylisten en houd je bezig met de belangrijkere dingen in het leven.",
+          "ctaText": "Nu proberen"
+        }
+      },
+      "sectionSentence":{
+        "sentence": "Überlasse unseren Profis das Thema Kleidung und spare Zeit für die wichtigen Dinge im Leben.",
+        "ctaText": "Nu proberen"
+      }
+    }
+  }
+}

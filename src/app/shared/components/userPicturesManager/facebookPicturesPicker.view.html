@@ -1,0 +1,24 @@
+<div class="modal-facebook-pictures">
+  <div class="row images-container">
+    <div class="col-xs-6 col-sm-4 col-md-4 img-container" ng-repeat="pic in $ctrl.resolve.pictures track by $index">
+      <input class="pic-input__fb__item__input" id="{{pic.id}}" ng-model="pic.selected" type="checkbox" ng-hide="true">
+      <label for="{{pic.id}}">
+        <img ng-src="{{$ctrl.facebookPicFromId(pic.id)}}"
+             ng-class="['img', 'img-responsive', 'img-facebook', {'facebook-selected': pic.selected}]"/>
+        <div class="icon-light-cross"></div>
+      </label>
+    </div>
+  </div>
+  <div class="row buttons-container">
+    <div class="col-xs-12 col-sm-12 col-md-12">
+      <button
+        translate="components.facebookPicturesPicker.facebookPicturesPicker"
+        class="btn btn-primary"
+        ng-click="$ctrl.submit()"
+        type="submit"
+      >
+        Upload Pictures
+      </button>
+    </div>
+  </div>
+</div>
