@@ -9,6 +9,12 @@ import psSectionFeature from 'components/sectionFeature';
 import psSectionSentence from 'components/sectionSentence';
 import { appControllerName, appController } from './app.controller';
 
+// Jesus Controllers
+import {contactExpertControllerName, contactExpertController } from './contactExpert/contactExpert.controller';
+
+//Jesus Directives
+import psContactExpert from 'components/contactExpert';
+
 const MODULE_NAME = 'AppController';
 
 angular.module(MODULE_NAME, [
@@ -21,7 +27,10 @@ angular.module(MODULE_NAME, [
   psSectionBulletPoints,
   psSectionFeature,
   psSectionSentence,
+  psContactExpert
 ])
-  .controller(appControllerName, appController);
+  .controller(appControllerName, appController)
+
+  .controller(contactExpertControllerName, contactExpertController);
 
 export default MODULE_NAME;

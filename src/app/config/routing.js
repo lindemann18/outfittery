@@ -1,4 +1,5 @@
-import appView from 'controllers/app/app.view.html';
+import appView 		 from 'controllers/app/app.view.html';
+import contactExpert from 'controllers/app/contactExpert/contactExpert.html';
 
 function routing($urlRouterProvider, $locationProvider, $stateProvider) {
   $locationProvider.html5Mode(true);
@@ -10,6 +11,12 @@ function routing($urlRouterProvider, $locationProvider, $stateProvider) {
       templateUrl: appView,
       controller: 'AppController',
       controllerAs: '$ctrl',
+    })
+    .state('contact', {
+      url: '/contactExpert',
+      templateUrl: contactExpert,
+      controller: 'contactExpertController',
+      controllerAs: '$expert',
     });
 }
 

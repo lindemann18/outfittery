@@ -1,6 +1,6 @@
 import config from 'config/config';
 
-import heroPicture from 'img/main_photo.jpg';
+import heroPicture 	   from 'img/main_photo.jpg';
 import feature1Picture from 'img/manSide.jpg';
 import feature2Picture from 'img/boxTwo.jpg';
 import feature3Picture from 'img/boxOne.jpg';
