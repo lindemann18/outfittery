@@ -9,7 +9,9 @@ const contactExpertComponent = {
 	bindings:{
 		shirtImg:"<",
 		userImg:"<",
-		boxxxImg:"<"
+		boxxxImg:"<",
+		stylistImg:"<",
+		calendariconImg:"<",
 	},
 };
 

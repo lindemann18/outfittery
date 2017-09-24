@@ -13,10 +13,20 @@
 		</div>
 	</div><!-- ContactExpert__Icons -->
 
-
-	<div class="ContactExpert__confirm">
-		<div class="ContactExpert__expert-img"></div> 
-		<div class="ContactExpert__text"></div>
+	<div class="ContactExpert__confirm"> 
+		<div class="ContactExpert__expert-img" style="background-image: url({{$ctrl.stylistImg}})"></div>
+		<div class="ContactExpert__text">
+			<p>
+			Would you like to schedule call with your stylist before
+			 they pack your box?</p>
+		</div>
 	</div>
 
+	<div class="ContactExpert__confirmBox">
+		<div class="ContactExpert__box">
+			<img src="{{$ctrl.calendariconImg}}" alt="">
+			<span>Yes, Please</span>
+			<input type="checkbox" class="form-control" ng-click="">
+		</div>
+	</div>
 </div><!-- ContactExpert -->
