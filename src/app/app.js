@@ -12,6 +12,7 @@ import translationConfig from 'shared/config/translationWP.config';
 import routing from 'config/routing';
 
 import AppController from 'controllers/app';
+import contactExpertController from 'controllers/contactExpert';
 
 const MODULE_NAME = 'ps-app';
 
@@ -21,6 +22,7 @@ angular.module(MODULE_NAME, [
   translateLoaderStaticFiles,
   // Controllers
   AppController,
+  contactExpertController,
   // Services
 ])
   .config(routing)

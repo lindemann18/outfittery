@@ -1,14 +1,17 @@
 // import all the assets
-import icon-Money  from 'icon-Money.svg';
-import icon-house  from 'icon-house.svg';
-import icon-pick   from 'icon-pick.svg';
-import icon-wallet from 'icon-wallet'ç,
+import shirt   from 'shared/img/SVG/short4.svg'
+import user    from 'shared/img/SVG/user.svg';
+import boxxx   from 'shared/img/SVG/boxxx.svg';
+import Stylist from 'img/Stylist.png';
 
 const CONTROLLER_NAME = "contactExpertController";
 
 function contactExpertController()
 {
-	console.log("holis");
+	const self = this;
+	self.user  = user;
+	self.shirt = shirt;
+	self.boxxx = boxxx;
 }
 
 contactExpertController.$inject = ['$timeout', '$http', 'LoggerService', 'AbLoggerService'];

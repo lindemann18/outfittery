@@ -1,2 +1,42 @@
+@import "~styles/variables.sass"
+
 .ContactExpert
- 	
+	width: 100%
+	background-color: #ffffff !important
+
+	.ContactExpert__icons
+		width: 100%
+		margin-top: 10px
+		display: flex
+    	align-items: center
+		justify-content: center
+    	
+		.ContactExpert__icon
+			width: 40px
+			height: 40px
+			position:relative !important
+			border: 2px solid $ship-cove
+			border-radius: 20px
+			display: inline-flex
+			align-items: center
+			justify-content: center
+
+			img
+				width: 70%
+				height: 70%
+
+	.ContactExpert__confirm
+		width: 100%
+		height: 200px
+		.ContactExpert__expert-img
+			backgrond-image: url("img/Stylist.png")
+
+.ContactExpert__icon--right
+	margin-right: 13%
+
+	&:after
+		content: '';
+		position: absolute;
+		width: 143%;
+		border: 1px solid #809DBC;
+		left: 106%;

@@ -7,9 +7,14 @@ import psSectionHero from 'components/sectionHero';
 import psSectionBulletPoints from 'components/sectionBulletPoints';
 import psSectionFeature from 'components/sectionFeature';
 import psSectionSentence from 'components/sectionSentence';
-import { appControllerName, appController } from './app.controller';
 
-const MODULE_NAME = 'AppController';
+// Jesus Controllers
+import {contactExpertControllerName, contactExpertController } from './contactExpert.controller';
+
+//Jesus Directives
+import psContactExpert from 'components/contactExpert';
+
+const MODULE_NAME = 'contactExpertController';
 
 angular.module(MODULE_NAME, [
   // Internal dependencies
@@ -20,8 +25,9 @@ angular.module(MODULE_NAME, [
   psSectionHero,
   psSectionBulletPoints,
   psSectionFeature,
-  psSectionSentence
+  psSectionSentence,
+  psContactExpert
 ])
-  .controller(appControllerName, appController);
+  .controller(contactExpertControllerName, contactExpertController);
 
 export default MODULE_NAME;
