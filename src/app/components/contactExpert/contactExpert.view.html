@@ -21,12 +21,43 @@
 			 they pack your box?</p>
 		</div>
 	</div>
-
+	
 	<div class="ContactExpert__confirmBox">
 		<div class="ContactExpert__box">
-			<img src="{{$ctrl.calendariconImg}}" alt="">
-			<span>Yes, Please</span>
-			<input type="checkbox" class="form-control" ng-click="">
+			<div class="ContactExpert__text-image">
+				<img src="{{$ctrl.calendariconImg}}" alt="">
+				<span>Yes, Please</span>
+			</div>
+			<input type="checkbox"  ng-click="clickbox()">
 		</div>
+	</div>
+
+	<div class="ContactExpert__contact-stylist-form" ng-if="contactExpertFlag">
+		<p>Schedulea call with your stylist at a time to suit you, to talk about your order, style and preferences.</p>
+
+		<div class="ContactExpert__contact-phone">
+			<div class="ContactExpert__phoneNumber">
+				<span>Contact Telephone Number</span>
+				<input type="text" class="form-control">
+				<input type="text" class="form-control">
+			</div>
+		</div>
+
+		<div class="ContactExpert__date-pick">
+			<span>Pick a day and time</span>
+		</div>
+	</div>
+
+	<div class="ContactExpert__share-with">
+		<span>
+			Is there anything else that you would like to 
+			share with your Stylist
+		</span>
+
+		<textarea ng-model="shareWithStylist"></textarea>
+	</div>
+
+	<div class="ContactExpert__confirmOrder">
+		<a target="_self" href="#" class="uppercase btn btn-primary" translate="Confirm Order"></a>
 	</div>
 </div><!-- ContactExpert -->

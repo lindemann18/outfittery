@@ -16,10 +16,6 @@ function contactExpertController()
 	self.stylist 	  = stylist;
 	self.calendaricon = calendaricon;
 
-	self.clickBox = function()
-	{
-		alert("holis");
-	}
 }
 
 contactExpertController.$inject = ['$timeout', '$http', 'LoggerService', 'AbLoggerService'];

@@ -7,6 +7,8 @@ import translate from 'angular-translate';
 import translateLoaderStaticFiles from 'angular-translate-loader-static-files';
 
 import UtilService from 'shared/services/util/ps-util';
+import calendarService from 'shared/services/util/ps-calendarrequest';
+
 import translationConfig from 'shared/config/translationWP.config';
 
 import routing from 'config/routing';
@@ -24,6 +26,7 @@ angular.module(MODULE_NAME, [
   AppController,
   contactExpertController,
   // Services
+  calendarService
 ])
   .config(routing)
   .config(translationConfig);
