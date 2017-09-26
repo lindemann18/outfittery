@@ -1,5 +1,6 @@
 import templateUrl from './contactExpert.view';
-import 'angular-ui-carousel/dist/ui-carousel.css';
+import left from 'shared/img/SVG/left.svg';
+import right from 'shared/img/SVG/right.svg';
 
 const CONTACT_EXPERT_COMPONENT_NAME = "psContactExpert";
 
@@ -19,12 +20,14 @@ const contactExpertComponent = {
 		$scope.timeSlots = [];
 		$scope.slots  = [];
 		$scope.slides = ["holis","ada"];
+		$scope.left = left;
+		$scope.right = right;
+		$scope.position = 1;
 
 		calendarService.getTimeSlots($http).then(
 			function(response)
 			{
 				$scope.timeSlots = response.data;
-				console.log($scope.timeSlots);
 			},
 			function(Err)
 			{
@@ -44,8 +47,32 @@ const contactExpertComponent = {
 
 		$scope.showTime = function(slots)
 		{
-			console.log("holis");
 			$scope.slots = slots;
+		}
+
+		$scope.moveCarousel = function(direction){
+			console.log(direction);
+			if(direction=="right")
+			{
+				if($scope.position!==$scope.timeSlots.length-2)
+				{
+					let leftval = $scope.position * 110;
+					let div =document.querySelector(".ContactExpert__schedule");
+					div.style.left = `-${leftval}px`;
+					$scope.position++;
+				}
+			}else{
+				console.log("left");
+				if($scope.position>1)
+				{
+					console.log("here");
+					let leftval = ($scope.position * 110)-110;
+					console.log(leftval);
+					let div =document.querySelector(".ContactExpert__schedule");
+					div.style.left = `${leftval}px`;
+					$scope.position--;
+				}
+			}
 		}
 		
 	}

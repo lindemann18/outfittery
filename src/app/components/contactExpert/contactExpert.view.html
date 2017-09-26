@@ -45,38 +45,31 @@
 
 		<div class="ContactExpert__date-pick">
 			<span>Pick a day and time</span>
-
+			<div class="ContactExpert__arrow ContactExpert__arrow--left" ng-click="moveCarousel('left')">
+				<img src="{{left}}" alt="">
+			</div>
 			<div class="ContactExpert__date-picker">
-				<div class="ContactExpert__schedule carousel-cell">
-					<div class="ContactExpert__day">
-						<ui-carousel 
-						  slides="timeSlots"
-						  slides-to-show="3"
-						  slides-to-scroll="1"
-						  initial-slide="1"
-						  arrows="true">
-
-						  <carousel-item >
-						  	<div ng-click="showTime(item.slots)">
-						  		<span>{{item.date | date:'EEEE'}}</span>
-								<span>{{item.date | date:'MMM d'}}</span>
-						  	</div>
-						  </carousel-item>
-						</ui-carousel>
+				<div class="ContactExpert__schedule">
+					<div class="ContactExpert__day" ng-repeat="timeslot in timeSlots" ng-click="showTime(timeslot.slots)">
+						<span>{{timeslot.date | date:'EEEE'}}</span>
+						<span>{{timeslot.date | date:'MMM d'}}</span>
 					</div>
 				</div>
 
-				<div class="ContactExpert__time" ng-repeat="slot in slots">
-					<div ng-if="slots.length>1">
+				<div class="ContactExpert__time">
+					<div ng-if="slots.length>1" ng-repeat="slot in slots">
 						{{slot.start}}
 						<input type="checkbox" ng-model="timeSelect">
 					</div>
 				</div>
-				<div ng-if="slots.length==0">
+				<div ng-if="slots.length==0" class="ContactExpert__time" >
 						<span>Sorry there are no available</span>
 						<span>Slots on {{timeslot.date | date:'EEEE'}},
 						{{timeslot.date | date:'d LLLL'}}</span>
 				</div>
+			</div>
+			<div class="ContactExpert__arrow ContactExpert__arrow--right">
+				<img src="{{right}}" alt="" ng-click="moveCarousel('right')">
 			</div>
 		</div>
 	</div>

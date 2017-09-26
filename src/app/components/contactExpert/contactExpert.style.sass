@@ -77,7 +77,42 @@
 			font-size: 14px
 			font-family: "OpenSans"
 			display: block
+			text-align: center
+		.ContactExpert__date-pick
+			position: relative
 			
+			.ContactExpert__arrow
+				position: absolute
+				width: 40px
+				height: 30px
+				z-index: 1000
+				&.ContactExpert__arrow--left
+					top: 38px
+					left: 12px
+
+				&.ContactExpert__arrow--right
+					top: 38px
+					right: 12px
+
+
+		.ContactExpert__date-picker
+			width: 89%
+			display: block
+			margin: 0 auto
+			position: relative
+			overflow: hidden
+			margin-bottom: 3%
+			.ContactExpert__schedule
+				position: absolute
+				width: 500%
+				left: 0px
+			.ContactExpert__day
+				display: inline-block
+				padding: 1% 1% 1% 1%
+				width: 110px
+				z-index: 999
+			.ContactExpert__time
+				margin-top: 24%
 
 .ContactExpert__icon--right
 	margin-right: 13%
