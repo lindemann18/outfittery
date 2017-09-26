@@ -5,6 +5,7 @@ import angular from 'angular';
 import uiRouter from 'angular-ui-router';
 import translate from 'angular-translate';
 import translateLoaderStaticFiles from 'angular-translate-loader-static-files';
+import uicarousel from 'angular-ui-carousel';
 
 import UtilService from 'shared/services/util/ps-util';
 import calendarService from 'shared/services/util/ps-calendarrequest';
@@ -16,6 +17,7 @@ import routing from 'config/routing';
 import AppController from 'controllers/app';
 import contactExpertController from 'controllers/contactExpert';
 
+
 const MODULE_NAME = 'ps-app';
 
 angular.module(MODULE_NAME, [
@@ -25,6 +27,7 @@ angular.module(MODULE_NAME, [
   // Controllers
   AppController,
   contactExpertController,
+  'ui.carousel',
   // Services
   calendarService
 ])

@@ -1,6 +1,5 @@
-
-
 import templateUrl from './contactExpert.view';
+import 'angular-ui-carousel/dist/ui-carousel.css';
 
 const CONTACT_EXPERT_COMPONENT_NAME = "psContactExpert";
 
@@ -18,10 +17,14 @@ const contactExpertComponent = {
 		$scope.contactExpertFlag = false;
 		$scope.shareWithStylist  = "";
 		$scope.timeSlots = [];
+		$scope.slots  = [];
+		$scope.slides = ["holis","ada"];
+
 		calendarService.getTimeSlots($http).then(
 			function(response)
 			{
 				$scope.timeSlots = response.data;
+				console.log($scope.timeSlots);
 			},
 			function(Err)
 			{
@@ -29,11 +32,22 @@ const contactExpertComponent = {
 			}
 		);
 
+		$scope.submitOrder = function()
+		{
+			alert("holis");
+		}
 
 		$scope.clickbox = function()
 		{
 			$scope.contactExpertFlag = !$scope.contactExpertFlag;
 		}
+
+		$scope.showTime = function(slots)
+		{
+			console.log("holis");
+			$scope.slots = slots;
+		}
+		
 	}
 };
 

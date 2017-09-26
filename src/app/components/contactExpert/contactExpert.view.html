@@ -27,13 +27,13 @@
 			<div class="ContactExpert__text-image">
 				<img src="{{$ctrl.calendariconImg}}" alt="">
 				<span>Yes, Please</span>
-			</div>
+			</ditimeSlotsv>
 			<input type="checkbox"  ng-click="clickbox()">
 		</div>
 	</div>
 
 	<div class="ContactExpert__contact-stylist-form" ng-if="contactExpertFlag">
-		<p>Schedulea call with your stylist at a time to suit you, to talk about your order, style and preferences.</p>
+		<p>Schedule a call with your stylist at a time to suit you, to talk about your order, style and preferences.</p>
 
 		<div class="ContactExpert__contact-phone">
 			<div class="ContactExpert__phoneNumber">
@@ -45,6 +45,39 @@
 
 		<div class="ContactExpert__date-pick">
 			<span>Pick a day and time</span>
+
+			<div class="ContactExpert__date-picker">
+				<div class="ContactExpert__schedule carousel-cell">
+					<div class="ContactExpert__day">
+						<ui-carousel 
+						  slides="timeSlots"
+						  slides-to-show="3"
+						  slides-to-scroll="1"
+						  initial-slide="1"
+						  arrows="true">
+
+						  <carousel-item >
+						  	<div ng-click="showTime(item.slots)">
+						  		<span>{{item.date | date:'EEEE'}}</span>
+								<span>{{item.date | date:'MMM d'}}</span>
+						  	</div>
+						  </carousel-item>
+						</ui-carousel>
+					</div>
+				</div>
+
+				<div class="ContactExpert__time" ng-repeat="slot in slots">
+					<div ng-if="slots.length>1">
+						{{slot.start}}
+						<input type="checkbox" ng-model="timeSelect">
+					</div>
+				</div>
+				<div ng-if="slots.length==0">
+						<span>Sorry there are no available</span>
+						<span>Slots on {{timeslot.date | date:'EEEE'}},
+						{{timeslot.date | date:'d LLLL'}}</span>
+				</div>
+			</div>
 		</div>
 	</div>
 
@@ -58,6 +91,6 @@
 	</div>
 
 	<div class="ContactExpert__confirmOrder">
-		<a target="_self" href="#" class="uppercase btn btn-primary" translate="Confirm Order"></a>
+		<a  ng-click="submitOrder()" class="uppercase btn btn-primary" translate="Confirm Order"></a>
 	</div>
 </div><!-- ContactExpert -->
