@@ -27,18 +27,20 @@
 			<div class="ContactExpert__text-image">
 				<img src="{{$ctrl.calendariconImg}}" alt="">
 				<span>Yes, Please</span>
-			</ditimeSlotsv>
+			</div>
 			<input type="checkbox"  ng-click="clickbox()">
 		</div>
 	</div>
 
 	<div class="ContactExpert__contact-stylist-form" ng-if="contactExpertFlag">
 		<div class="ContactExpert__contact-phone">
-			<p>Schedule a call with your stylist at a time to suit you, to talk about your order, style and preferences.</p>
+			<p class="ContactExpert__describing-text">Schedule a call with your stylist at a time to suit you, to talk about your order, style and preferences.</p>
 			<div class="ContactExpert__phoneNumber">
 				<span>Contact Telephone Number</span>
-				<input type="text" class="form-control">
-				<input type="text" class="form-control">
+				<select class="form-control" ng-options="phone.value as phone.name for phone in phoneNumbers track by phone.value" ng-model="contactExpertInfo.phoneCode">
+					<option value="">Select...</option>
+				</select>
+				<input type="number" class="form-control" ng-model="contactExpertInfo.phoneNumber">
 			</div>
 		</div>
 
@@ -49,7 +51,7 @@
 			</div>
 			<div class="ContactExpert__date-picker">
 				<div class="ContactExpert__schedule">
-					<div class="ContactExpert__day" ng-repeat="timeslot in timeSlots" ng-click="showTime(timeslot.slots)">
+					<div class="ContactExpert__day" ng-repeat="timeslot in timeSlots" ng-click="showTime(timeslot.slots,timeslot.date)">
 						<span>{{timeslot.date | date:'EEEE'}}</span>
 						<span>{{timeslot.date | date:'MMM d'}}</span>
 					</div>
@@ -58,7 +60,7 @@
 				<div class="ContactExpert__time">
 					<div ng-if="slots.length>1" ng-repeat="slot in slots">
 						{{slot.start}}
-						<input type="checkbox" ng-model="timeSelect">
+						<input type="radio" ng-model="contactExpertInfo.slot" ng-value="slot.start | date:'HH mm'">
 					</div>
 				</div>
 				<div ng-if="slots.length==0" class="ContactExpert__time" >
@@ -78,14 +80,14 @@
 	</div>
 
 	<div class="ContactExpert__share-with">
-		<span>
+		<p class="ContactExpert__describing-text">
 			Is there anything else that you would like to 
 			share with your Stylist
-		</span>
+		</p>
 
-		<textarea ng-model="shareWithStylist"></textarea>
+		<textarea ng-model="contactExpertInfo.orderConfirmationComment"></textarea>
 	</div>
-
+	<pre>{{contactExpertInfo}}</pre>
 	<div class="ContactExpert__confirmOrder">
 		<a  ng-click="submitOrder()" class="uppercase btn btn-primary" translate="Confirm Order"></a>
 	</div>

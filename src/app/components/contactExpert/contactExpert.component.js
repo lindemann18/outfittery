@@ -16,7 +16,6 @@ const contactExpertComponent = {
 	controller:function($scope,$http,calendarService)
 	{
 		$scope.contactExpertFlag = false;
-		$scope.shareWithStylist  = "";
 		$scope.timeSlots = [];
 		$scope.slots  = [];
 		$scope.slides = ["holis","ada"];
@@ -27,6 +26,9 @@ const contactExpertComponent = {
 		$scope.textOrerror = "";
 		$scope.contactExpertInfo = {};
 		$scope.textOrerror = "Loading...";
+		$scope.phoneNumbers = [];
+
+
 		calendarService.getTimeSlots($http).then(
 			function(response)
 			{
@@ -41,6 +43,9 @@ const contactExpertComponent = {
 			}
 		);
 
+		$scope.phoneNumbers =calendarService.getCountryPhoneCodes();
+		console.log($scope.phoneNumbers);
+
 		$scope.submitOrder = function()
 		{
 			alert("holis");
@@ -49,15 +54,21 @@ const contactExpertComponent = {
 		$scope.clickbox = function()
 		{
 			$scope.contactExpertFlag = !$scope.contactExpertFlag;
+
+			if($scope.contactExpertFlag)
+			{
+				$scope.showTime($scope.timeSlots[0].slots);
+				$scope.contactExpertInfo.date = $scope.timeSlots[0].date;
+			}
 		}
 
-		$scope.showTime = function(slots)
+		$scope.showTime = function(slots,time)
 		{
 			$scope.slots = slots;
+			$scope.contactExpertInfo.date = time;
 		}
 
 		$scope.moveCarousel = function(direction){
-			console.log(direction);
 			if(direction=="right")
 			{
 				if($scope.position!==$scope.timeSlots.length-3)

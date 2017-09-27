@@ -4,7 +4,12 @@
 	font-size: 14px
 	color: #333333
 	font-family: "OpenSans"
-	margin-bottom: 3%
+
+input[type="radio"] 
+  -webkit-appearance: checkbox
+  -moz-appearance: checkbox
+  -ms-appearance: checkbox
+
 
 .ContactExpert
 	width: 100%
@@ -44,34 +49,22 @@
 			margin-top: 3%
 
 		.ContactExpert__text
-			padding: 0 5% 0 0
+			padding: 0 27px 0 0
 			float: right
 			width: 65%
 			display: inline-block
 			font-face: "Gotham"
 			font-size: 16px
+			margin-right: 8px
 
 	.ContactExpert__confirmBox
 		width: 100%
 		overflow: hidden
 
-		.ContactExpert__share-with
-			width: 300px
-			background: $gallery
-			margin: 0 auto
-			overflow: hidden
-			padding: 7% 5%
-
-			textarea
-				width: 250px
-				height: 127px
-				margin: 0 auto
-				display: block
-
 		.ContactExpert__box
 			width: 212px
 			height: 38px
-			margin-left: 35%
+			margin-left: 124px
 			margin-bottom: 38px
 			border: 2px solid $ship-cove
 			
@@ -89,6 +82,29 @@
 				span
 					font-family: "OpenSans"
 					margin-left: 9px
+
+	.ContactExpert__share-with
+			width: 300px
+			background: $gallery
+			margin: 0 auto
+			overflow: hidden
+			padding: 7% 5%
+
+			textarea
+				width: 250px
+				height: 127px
+				margin: 0 auto
+				display: block
+	
+			p
+				margin: 0 0 12px 0
+				padding: 0 8px
+				font-size: 14px
+				color: #333333
+				font-family: "OpenSans"
+
+	.ContactExpert__confirmOrder
+			margin: 32px 0 32px 0;
 
 	.ContactExpert__contact-stylist-form
 		background-color: $gallery
@@ -127,6 +143,9 @@
 				overflow: hidden
 				display: block
 				width: 100%
+
+				input
+					width: 100%
 
 		.ContactExpert__date-pick
 			position: relative
