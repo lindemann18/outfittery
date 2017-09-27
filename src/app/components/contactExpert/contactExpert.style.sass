@@ -1,5 +1,11 @@
 @import "~styles/variables.sass"
 
+@mixin textstyle()
+	font-size: 14px
+	color: #333333
+	font-family: "OpenSans"
+	margin-bottom: 3%
+
 .ContactExpert
 	width: 100%
 	background-color: #ffffff !important
@@ -42,17 +48,31 @@
 			float: right
 			width: 65%
 			display: inline-block
-			font-face: Gotham-Bold
+			font-face: "Gotham"
 			font-size: 16px
 
 	.ContactExpert__confirmBox
 		width: 100%
 		overflow: hidden
 
+		.ContactExpert__share-with
+			width: 300px
+			background: $gallery
+			margin: 0 auto
+			overflow: hidden
+			padding: 7% 5%
+
+			textarea
+				width: 250px
+				height: 127px
+				margin: 0 auto
+				display: block
+
 		.ContactExpert__box
 			width: 212px
 			height: 38px
 			margin-left: 35%
+			margin-bottom: 38px
 			border: 2px solid $ship-cove
 			
 			input[type="checkbox"]
@@ -72,15 +92,46 @@
 
 	.ContactExpert__contact-stylist-form
 		background-color: $gallery
+		margin: 0 6%
 
 		span
 			font-size: 14px
 			font-family: "OpenSans"
 			display: block
 			text-align: center
+
+		.ContactExpert__contact-phone
+			text-align: left
+			padding: 2% 7% 5% 7%
+			font-family: "OpenSans"
+			font-size: 14px
+			margin-top: 3%
+			
+			p
+				textstyle()
+				margin: 0
+				display: block
+				float: left
+
+			span
+				color: #333333
+				font-size: 16px
+				font-family: "Gotham-Bold"
+				margin-top: 5%
+
+			input[type="text"]
+				width: 100%
+				margin-bottom: 3%
+
+			.ContactExpert__phoneNumber
+				overflow: hidden
+				display: block
+				width: 100%
+
 		.ContactExpert__date-pick
 			position: relative
-			
+			background: #ffffff
+
 			.ContactExpert__arrow
 				position: absolute
 				width: 40px
@@ -94,6 +145,10 @@
 					top: 38px
 					right: 12px
 
+		.Contact_Expert__Loading-error
+			text-align: center
+			background: #ffffff
+
 
 		.ContactExpert__date-picker
 			width: 89%
@@ -106,11 +161,14 @@
 				position: absolute
 				width: 500%
 				left: 0px
+				top: 11%
 			.ContactExpert__day
 				display: inline-block
-				padding: 1% 1% 1% 1%
-				width: 110px
-				z-index: 999
+				width: 80px
+				height: 40px
+				z-index: 9999
+				border: 1px solid #ccc
+				margin-right: 2px
 			.ContactExpert__time
 				margin-top: 24%
 

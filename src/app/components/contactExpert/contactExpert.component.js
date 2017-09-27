@@ -23,15 +23,21 @@ const contactExpertComponent = {
 		$scope.left = left;
 		$scope.right = right;
 		$scope.position = 1;
-
+		$scope.loading  = true;
+		$scope.textOrerror = "";
+		$scope.contactExpertInfo = {};
+		$scope.textOrerror = "Loading...";
 		calendarService.getTimeSlots($http).then(
 			function(response)
 			{
 				$scope.timeSlots = response.data;
+				$scope.loading  = false;
+				$scope.textOrerror = "";
 			},
 			function(Err)
 			{
 				console.log(Err);
+				$scope.textOrerror = "Ops! There was an error";
 			}
 		);
 
@@ -54,9 +60,9 @@ const contactExpertComponent = {
 			console.log(direction);
 			if(direction=="right")
 			{
-				if($scope.position!==$scope.timeSlots.length-2)
+				if($scope.position!==$scope.timeSlots.length-3)
 				{
-					let leftval = $scope.position * 110;
+					let leftval = $scope.position * 81;
 					let div =document.querySelector(".ContactExpert__schedule");
 					div.style.left = `-${leftval}px`;
 					$scope.position++;
@@ -65,12 +71,10 @@ const contactExpertComponent = {
 				console.log("left");
 				if($scope.position>1)
 				{
-					console.log("here");
-					let leftval = ($scope.position * 110)-110;
-					console.log(leftval);
+					$scope.position--;
+					let leftval = ($scope.position * -81)+81;
 					let div =document.querySelector(".ContactExpert__schedule");
 					div.style.left = `${leftval}px`;
-					$scope.position--;
 				}
 			}
 		}

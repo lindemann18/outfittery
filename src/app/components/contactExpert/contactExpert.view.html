@@ -33,9 +33,8 @@
 	</div>
 
 	<div class="ContactExpert__contact-stylist-form" ng-if="contactExpertFlag">
-		<p>Schedule a call with your stylist at a time to suit you, to talk about your order, style and preferences.</p>
-
 		<div class="ContactExpert__contact-phone">
+			<p>Schedule a call with your stylist at a time to suit you, to talk about your order, style and preferences.</p>
 			<div class="ContactExpert__phoneNumber">
 				<span>Contact Telephone Number</span>
 				<input type="text" class="form-control">
@@ -43,7 +42,7 @@
 			</div>
 		</div>
 
-		<div class="ContactExpert__date-pick">
+		<div class="ContactExpert__date-pick" ng-if="!loading">
 			<span>Pick a day and time</span>
 			<div class="ContactExpert__arrow ContactExpert__arrow--left" ng-click="moveCarousel('left')">
 				<img src="{{left}}" alt="">
@@ -71,6 +70,10 @@
 			<div class="ContactExpert__arrow ContactExpert__arrow--right">
 				<img src="{{right}}" alt="" ng-click="moveCarousel('right')">
 			</div>
+		</div>
+
+		<div class="Contact_Expert__Loading-error" ng-if="loading">
+			<h3>{{textOrerror}}</h3>
 		</div>
 	</div>
 
