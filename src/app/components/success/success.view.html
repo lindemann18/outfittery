@@ -3,7 +3,7 @@
 
 	<div class="successSection__stylist-contact">
 		<img src="{{stylist}}" alt="stylist">
-		<p>Thank you very much! Julia will now start putting together your
+		<p class="successSection_stylist_thank">Thank you very much! Julia will now start putting together your
 		OUTFITTERY BOX.</p>
 	</div>
 
@@ -13,22 +13,32 @@
 			
 			<div class="successSection__detail-section">
 				<img src="{{wallet}}" alt="">
-				<span class="successSection__detail-title">Payment Method: Invoice</span>
+				<div class="successSection__detail-text">
+					<span class="successSection__detail-title">Payment Method: Invoice</span>
+				</div>
 			</div>
 
 			<div class="successSection__hiden-details">
 				<div class="successSection__detail-section">
 					<img src="{{house}}" alt="">
-					<span class="successSection__detail-title">Payment Method: Invoice</span>
-					<p class="successSection__detail-description">Josh Homme c/0 görlitzer str 55</p>
+					<div class="successSection__detail-text">
+						<span class="successSection__detail-title">Payment Method: Invoice</span>
+					<p class="successSection__detail-description">Josh Homme c/0  Miller görlitzer str 55</p>
+					</div>
 				</div>
 
 				<div class="successSection__detail-section">
 					<img src="{{money}}" alt="">
-					<span class="successSection__detail-title">Payment Method: Invoice</span>
+					<div class="successSection__detail-text">
+						<span class="successSection__detail-title">Payment Method: Invoice</span>
 					<p class="successSection__detail-description">Josh Homme c/0 görlitzer str 55</p>
+					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+
+	<div class="successSection__button">
+		<a  ng-click="submitOrder()" class="uppercase btn btn-primary" translate="GO TO ACCOUNT"></a>
 	</div>
 </div>
