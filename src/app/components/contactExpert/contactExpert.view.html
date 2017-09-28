@@ -37,10 +37,10 @@
 			<p class="ContactExpert__describing-text">Schedule a call with your stylist at a time to suit you, to talk about your order, style and preferences.</p>
 			<div class="ContactExpert__phoneNumber">
 				<span>Contact Telephone Number</span>
-				<select class="form-control" ng-options="phone.value as phone.name for phone in phoneNumbers track by phone.value" ng-model="contactExpertInfo.phoneCode">
+				<select class="form-control" ng-options="phone.value as phone.name for phone in phoneNumbers track by phone.value" ng-model="numberPhone.code">
 					<option value="">Select...</option>
 				</select>
-				<input type="number" class="form-control" ng-model="contactExpertInfo.phoneNumber">
+				<input type="number" class="form-control" ng-model="numberPhone.number">
 			</div>
 		</div>
 
@@ -87,7 +87,6 @@
 
 		<textarea ng-model="contactExpertInfo.orderConfirmationComment"></textarea>
 	</div>
-	<pre>{{contactExpertInfo}}</pre>
 	<div class="ContactExpert__confirmOrder">
 		<a  ng-click="submitOrder()" class="uppercase btn btn-primary" translate="Confirm Order"></a>
 	</div>

@@ -18,6 +18,7 @@ const MODULE_NAME = 'contactExpertController';
 
 angular.module(MODULE_NAME, [
   // Internal dependencies
+  psContactExpert,
   psLogger,
   psAbLogger,
   psNavHeader,
@@ -25,8 +26,7 @@ angular.module(MODULE_NAME, [
   psSectionHero,
   psSectionBulletPoints,
   psSectionFeature,
-  psSectionSentence,
-  psContactExpert
+  psSectionSentence
 ])
   .controller(contactExpertControllerName, contactExpertController);
 

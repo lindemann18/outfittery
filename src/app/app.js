@@ -5,7 +5,7 @@ import angular from 'angular';
 import uiRouter from 'angular-ui-router';
 import translate from 'angular-translate';
 import translateLoaderStaticFiles from 'angular-translate-loader-static-files';
-import uicarousel from 'angular-ui-carousel';
+
 
 import UtilService from 'shared/services/util/ps-util';
 import calendarService from 'shared/services/util/ps-calendarrequest';
@@ -14,8 +14,9 @@ import translationConfig from 'shared/config/translationWP.config';
 
 import routing from 'config/routing';
 
-import AppController from 'controllers/app';
+import AppController           from 'controllers/app';
 import contactExpertController from 'controllers/contactExpert';
+import successController       from 'controllers/success';
 
 
 const MODULE_NAME = 'ps-app';
@@ -27,7 +28,7 @@ angular.module(MODULE_NAME, [
   // Controllers
   AppController,
   contactExpertController,
-  'ui.carousel',
+  successController,
   // Services
   calendarService
 ])

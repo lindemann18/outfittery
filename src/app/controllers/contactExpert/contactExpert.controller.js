@@ -18,6 +18,6 @@ function contactExpertController()
 
 }
 
-contactExpertController.$inject = ['$timeout', '$http', 'LoggerService', 'AbLoggerService'];
+contactExpertController.$inject = ['$http'];
 
 export { CONTROLLER_NAME as contactExpertControllerName, contactExpertController };

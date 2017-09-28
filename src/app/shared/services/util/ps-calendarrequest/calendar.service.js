@@ -228,6 +228,12 @@ function getTimeSlots($http)
 	return $http.get(URL_GET_SLOTS);
 }
 
+function submitAppointment($http,data)
+{
+	const URL_GET_SLOTS = `${URL}appointments`;
+	return $http.post(URL_GET_SLOTS,data);
+}
+
 function getCountryPhoneCodes($http)
 {
 	return phones;
@@ -238,7 +244,8 @@ function calendarRequestService()
 
 	return{
 		getTimeSlots: getTimeSlots,
-		getCountryPhoneCodes:getCountryPhoneCodes
+		getCountryPhoneCodes:getCountryPhoneCodes,
+		submitAppointment:submitAppointment
 	}
 }
 

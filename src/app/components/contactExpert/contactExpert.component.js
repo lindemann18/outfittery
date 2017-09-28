@@ -1,6 +1,7 @@
 import templateUrl from './contactExpert.view';
 import left from 'shared/img/SVG/left.svg';
 import right from 'shared/img/SVG/right.svg';
+import angular from 'angular';
 
 const CONTACT_EXPERT_COMPONENT_NAME = "psContactExpert";
 
@@ -13,7 +14,7 @@ const contactExpertComponent = {
 		stylistImg:"<",
 		calendariconImg:"<"
 	},
-	controller:function($scope,$http,calendarService)
+	controller:function($scope,$http,calendarService,$state)
 	{
 		$scope.contactExpertFlag = false;
 		$scope.timeSlots = [];
@@ -24,10 +25,17 @@ const contactExpertComponent = {
 		$scope.position = 1;
 		$scope.loading  = true;
 		$scope.textOrerror = "";
-		$scope.contactExpertInfo = {};
+		$scope.contactExpertInfo = {
+			orderConfirmationComment:"",
+			slot:"",
+			date:""
+		};
+		$scope.numberPhone = {
+			code:null,
+			number:null
+		};
 		$scope.textOrerror = "Loading...";
 		$scope.phoneNumbers = [];
-
 
 		calendarService.getTimeSlots($http).then(
 			function(response)
@@ -44,11 +52,28 @@ const contactExpertComponent = {
 		);
 
 		$scope.phoneNumbers =calendarService.getCountryPhoneCodes();
-		console.log($scope.phoneNumbers);
 
 		$scope.submitOrder = function()
 		{
-			alert("holis");
+				
+			// Setting the information for the submit request.
+			$scope.contactExpertInfo.phone = $scope.numberPhone.code + $scope.numberPhone.number;
+
+
+			calendarService.submitAppointment($http,$scope.contactExpertInfo).then(
+				function(response)
+				{
+					if(response.status===201)
+					{
+						window.location.assign("/success");
+					}
+				},
+				function(Err)
+				{
+					console.log(Err);
+				}
+			);
+
 		}
 
 		$scope.clickbox = function()

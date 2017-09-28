@@ -1,5 +1,6 @@
 import appView 		 from 'controllers/app/app.view.html';
 import contactExpertView from 'controllers/contactExpert/contactExpert.html';
+import successView       from 'controllers/success/success.view.html';
 
 function routing($urlRouterProvider, $locationProvider, $stateProvider) {
   $locationProvider.html5Mode(true);
@@ -16,6 +17,13 @@ function routing($urlRouterProvider, $locationProvider, $stateProvider) {
       url: '/contactExpert',
       templateUrl: contactExpertView,
       controller: 'contactExpertController',
+      controllerAs: '$ctrl',
+    })
+
+    .state('success', {
+      url: '/success',
+      templateUrl: successView,
+      controller: 'successController',
       controllerAs: '$ctrl',
     });
 }
