@@ -8,13 +8,8 @@
 	justify-content: center
 	background-color: #fffff !important
 	height: 40px
-<<<<<<< HEAD
 	position: relative
-	
-    	
-=======
 
->>>>>>> 2007a63902fef363f41de5db83dd568cf3c0c521
 	.funnelTrack__icon
 		width: 40px
 		height: 40px
@@ -30,6 +25,7 @@
 		&:last-child
 			margin-right: 0%
 
+
 		img
 			width: 70%
 			height: 70%
@@ -41,13 +37,14 @@
 			margin: auto
 			position: absolute
 
-		&:after
-			content: ''
-			position: absolute
-			width: 70px
-			border: 1px solid #809DBC
-			left: 106%
-			z-index: -1
+		&.funnelTrack__icon--right
+			&:after
+				content: ''
+				position: absolute
+				width: 75px
+				border: 1px solid #809DBC
+				left: 106%
+				z-index: -1
 
 	.funnelTrack__icon-containers
 			width: 40px
@@ -56,4 +53,6 @@
 			border-radius: 20px
 			border: 2px solid #809DBC
 			overflow: hidden
+
+
 

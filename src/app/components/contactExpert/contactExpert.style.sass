@@ -1,9 +1,9 @@
 @import "~styles/variables.sass"
 
 @mixin textstyle()
-	font-size: 14px
-	color: #333333
-	font-family: "OpenSans"
+    font-size: 14px
+    color: #333333
+    font-family: "OpenSans"
 
 input[type="radio"] 
   -webkit-appearance: checkbox
@@ -13,235 +13,238 @@ input[type="radio"]
 
 
 .ContactExpert
-	width: 100%
-	background-color: #ffffff !important
-	padding: 0 5%
+    width: 100%
+    background-color: #ffffff !important
+    padding: 0 5%
+      
 
-	.ContactExpert__icons
-		width: 100%
-		margin-top: 10px
-		display: flex
-    	align-items: center
-		justify-content: center
-    	
-		.ContactExpert__icon
-			width: 40px
-			height: 40px
-			position:relative !important
-			border: 2px solid $ship-cove
-			border-radius: 20px
-			display: inline-flex
-			align-items: center
-			justify-content: center
+    .ContactExpert__icons
+        width: 100%
+        margin-top: 10px
+        display: flex
+        align-items: center
+        justify-content: center
+        
+        .ContactExpert__icon
+            width: 40px
+            height: 40px
+            position:relative !important
+            border: 2px solid $ship-cove
+            border-radius: 20px
+            display: inline-flex
+            align-items: center
+            justify-content: center
 
-			img
-				width: 70%
-				height: 70%
+            img
+                width: 70%
+                height: 70%
 
-	.ContactExpert__confirm
-		width: 100%
-		margin-top: 7%
-		margin-bottom: 13px
-		overflow: hidden
-		.ContactExpert__expert-img
-			display: inline-block
-			width: 68px
-			height: 68px
-			background-repeat: no-repeat
-			margin-left: 10%
-			margin-top: 3%
-			float: left
+    .ContactExpert__confirm
+        width: 100%
+        margin-top: 7%
+        margin-bottom: 13px
+        overflow: hidden
+        .ContactExpert__expert-img
+            display: inline-block
+            width: 68px
+            height: 68px
+            background-repeat: no-repeat
+            margin-left: 10%
+            margin-top: 3%
+            float: left
 
-		.ContactExpert__text
-			padding: 0
-			float: right
-			width: 65%
-			display: inline-block
-			font-face: "Gotham"
-			font-size: 16px
-			margin: 0
+        .ContactExpert__text
+            padding: 0
+            float: right
+            width: 65%
+            display: inline-block
+            font-face: "Gotham"
+            font-size: 16px
+            margin: 0
 
-			p
-				padding: 0 0 0 4%
+            p
+                padding: 0 0 0 4%
 
-	.ContactExpert__confirmBox
-		width: 100%
-		overflow: hidden
+    .ContactExpert__confirmBox
+        width: 100%
+        overflow: hidden
 
-		.ContactExpert__box
-			width: 63%
-			height: 38px
-			float: right
-			margin-bottom: 38px
-			border: 2px solid $ship-cove
-			overflow: hidden
-			
-			input[type="checkbox"]
-				display: none
+        .ContactExpert__box
+            width: 63%
+            height: 38px
+            float: right
+            margin-bottom: 38px
+            border: 2px solid $ship-cove
+            overflow: hidden
+            
+            input[type="checkbox"]
+                display: none
 
-			input[type="checkbox"] + label
-				display: inline-block
-				width: 19px
-				height: 19px
-				float: right
-    			margin: 3% 3% 0% 0
-				vertical-align: middle
-				background: url(shared/img/PNG/check_radio_sheet.png) left top no-repeat
-				cursor: pointer
+            input[type="checkbox"] + label
+                display: inline-block
+                width: 19px
+                height: 19px
+                float: right
+                margin: 3% 3% 0% 0
+                vertical-align: middle
+                background: url(shared/img/PNG/check_radio_sheet.png) left top no-repeat
+                cursor: pointer
 
-			input[type="checkbox"]:checked + label
-			    background: url(shared/img/PNG/check_radio_sheet.png) -19px top no-repeat;
-
-
-			.ContactExpert__text-image
-				display: inline-flex
-				align-items: center
-				justify-content: center
-				padding-top: 3%
-				padding-left: 3%
-				font-weight: 100
-				
-				span
-					font-family: "OpenSans"
-					margin-left: 9px
-
-	.ContactExpert__share-with
-			width: 100%
-			background: $gallery
-			margin: 0 auto
-			overflow: hidden
-			padding: 7% 5%
-
-			textarea
-				width: 100%
-				height: 127px
-				display: block
-				margin: 6% 0 0 0
-				box-sizing: border-box
-				width: 100%
-				position: relative
-				border: 0
-	
-			.ContactExpert__describing-text
-				margin: 0
-				padding: 0
-				font-size: 14px
-				color: #333333
-				font-family: "OpenSans"
-				text-align: left
-
-	.ContactExpert__confirmOrder
-			margin: 32px 0 32px 0;
-
-	.ContactExpert__contact-stylist-form
-		background-color: $gallery
-
-		span
-			font-size: 14px
-			font-family: "OpenSans"
-			display: block
-			text-align: center
-
-		.ContactExpert__contact-phone
-			text-align: left
-			padding: 2% 7% 5% 7%
-			font-family: "OpenSans"
-			font-size: 14px
-			margin-top: 3%
-			width: 100%
-			
-			p
-				textstyle()
-				margin: 0
-				display: block
-				float: left
-
-			span
-				color: #333333
-				font-size: 16px
-				font-family: "Gotham-Bold"
-				margin-top: 5%
-				text-align: left
-				margin-bottom: 3%
-
-			input[type="text"]
-				width: 100%
-				margin-bottom: 3%
-
-			.ContactExpert__phoneNumber
-				overflow: hidden
-				display: block
-				width: 100%
-
-				input
-					width: 100%
-
-				select 
-					width: 100%
-					margin-bottom: 3%
-					background-color: #ffffff
-
-		.ContactExpert__date-pick
-			position: relative
-			background: #ffffff
-
-			.ContactExpert__arrow
-				position: absolute
-				width: 40px
-				height: 30px
-				z-index: 1000
-				&.ContactExpert__arrow--left
-					top: 19%
-					left: 1%
-
-				&.ContactExpert__arrow--right
-					top: 19%
-					right: -9%
-
-		.Contact_Expert__Loading-error
-			text-align: center
-			background: #ffffff
+            input[type="checkbox"]:checked + label
+                background: url(shared/img/PNG/check_radio_sheet.png) -19px top no-repeat;
 
 
-		.ContactExpert__date-picker
-			width: 89%
-			display: block
-			margin: 0 auto
-			position: relative
-			overflow: hidden
-			margin-bottom: 3%
-			max-width: 409px
-			.ContactExpert__schedule
-				position: absolute
-				width: 500%
-				left: 0px
-				top: 11%
+            .ContactExpert__text-image
+                display: inline-flex
+                align-items: center
+                justify-content: center
+                padding-top: 3%
+                padding-left: 3%
+                font-weight: 100
+                
+                span
+                    font-family: "OpenSans"
+                    margin-left: 9px
 
-				.ContactExpert__day
-					display: inline-block
-					width: 80px
-					height: 40px
-					z-index: 9999
-					border: 1px solid #ccc
-					margin-right: 2px
+    .ContactExpert__share-with
+            width: 100%
+            background: $gallery
+            margin: 0 auto
+            overflow: hidden
+            padding: 7% 5%
 
-			.ContactExpert__time
-				margin: 35% auto 0 auto;
-				overflow: hidden;
-				.ContactExpert__day-slots
-					border-bottom: 1px solid #ccc
-					margin-bottom: 2%
-					padding-bottom: 3%
+            textarea
+                width: 100%
+                height: 127px
+                display: block
+                margin: 6% 0 0 0
+                box-sizing: border-box
+                width: 100%
+                position: relative
+                border: 0
+    
+            .ContactExpert__describing-text
+                margin: 0
+                padding: 0
+                font-size: 14px
+                color: #333333
+                font-family: "OpenSans"
+                text-align: left
+
+    .ContactExpert__confirmOrder
+        margin: 4% auto
+        width: 100%
+        a
+            width: 100%
+
+    .ContactExpert__contact-stylist-form
+        background-color: $gallery
+
+        span
+            font-size: 14px
+            font-family: "OpenSans"
+            display: block
+            text-align: center
+
+        .ContactExpert__contact-phone
+            text-align: left
+            padding: 2% 7% 5% 7%
+            font-family: "OpenSans"
+            font-size: 14px
+            margin-top: 3%
+            width: 100%
+            
+            p
+                textstyle()
+                margin: 0
+                display: block
+                float: left
+
+            span
+                color: #333333
+                font-size: 16px
+                font-family: "Gotham-Bold"
+                margin-top: 5%
+                text-align: left
+                margin-bottom: 3%
+
+            input[type="text"]
+                width: 100%
+                margin-bottom: 3%
+
+            .ContactExpert__phoneNumber
+                overflow: hidden
+                display: block
+                width: 100%
+
+                input
+                    width: 100%
+
+                select 
+                    width: 100%
+                    margin-bottom: 3%
+                    background-color: #ffffff
+
+        .ContactExpert__date-pick
+            position: relative
+            background: #ffffff
+
+            .ContactExpert__arrow
+                position: absolute
+                width: 40px
+                height: 30px
+                z-index: 1000
+                &.ContactExpert__arrow--left
+                    top: 19%
+                    left: 1%
+
+                &.ContactExpert__arrow--right
+                    top: 19%
+                    right: -9%
+
+        .Contact_Expert__Loading-error
+            text-align: center
+            background: #ffffff
 
 
-				
+        .ContactExpert__date-picker
+            width: 89%
+            display: block
+            margin: 0 auto
+            position: relative
+            overflow: hidden
+            margin-bottom: 3%
+            max-width: 409px
+            .ContactExpert__schedule
+                position: absolute
+                width: 500%
+                left: 0px
+                top: 11%
+
+                .ContactExpert__day
+                    display: inline-block
+                    width: 80px
+                    height: 40px
+                    z-index: 9999
+                    border: 1px solid #ccc
+                    margin-right: 2px
+
+            .ContactExpert__time
+                margin: 35% auto 0 auto;
+                overflow: hidden;
+                .ContactExpert__day-slots
+                    border-bottom: 1px solid #ccc
+                    margin-bottom: 2%
+                    padding-bottom: 3%
+                
 
 .ContactExpert__icon--right
-	margin-right: 13%
+    margin-right: 13%
 
-	&:after
-		content: '';
-		position: absolute;
-		width: 143%;
-		border: 1px solid #809DBC;
-		left: 106%;
+    &:after
+        content: '';
+        position: absolute;
+        width: 143%;
+        border: 1px solid #809DBC;
+        left: 106%;
+

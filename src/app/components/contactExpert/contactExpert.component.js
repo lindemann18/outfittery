@@ -46,7 +46,6 @@ const contactExpertComponent = {
 			},
 			function(Err)
 			{
-				console.log(Err);
 				$scope.textOrerror = "Ops! There was an error";
 			}
 		);
@@ -104,7 +103,6 @@ const contactExpertComponent = {
 					$scope.position++;
 				}
 			}else{
-				console.log("left");
 				if($scope.position>1)
 				{
 					$scope.position--;
