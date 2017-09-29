@@ -96,7 +96,7 @@ const contactExpertComponent = {
 		$scope.moveCarousel = function(direction){
 			if(direction=="right")
 			{
-				if($scope.position!==$scope.timeSlots.length-3)
+				if($scope.position!==$scope.timeSlots.length-2)
 				{
 					let leftval = $scope.position * 81;
 					let div =document.querySelector(".ContactExpert__schedule");

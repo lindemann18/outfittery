@@ -16,7 +16,8 @@
 				<img src="{{$ctrl.calendariconImg}}" alt="">
 				<span>Yes, Please</span>
 			</div>
-			<input type="checkbox"  ng-click="clickbox()">
+			<input type="checkbox"  ng-click="clickbox()" id="c1">
+			<label for="c1"></label>
 		</div>
 	</div>
 
@@ -46,12 +47,12 @@
 				</div>
 
 				<div class="ContactExpert__time">
-					<div ng-if="slots.length>1" ng-repeat="slot in slots">
-						{{slot.start}}
-						<input type="radio" ng-model="contactExpertInfo.slot" ng-value="slot.start | date:'HH mm'">
+					<div ng-if="slots.length>1" ng-repeat="slot in slots" class="ContactExpert__day-slots">
+						<label for="">{{slot.start}}</label>
+						<input type="radio" ng-model="contactExpertInfo.slot" ng-value="slot.start | date:'HH mm'" >
 					</div>
 				</div>
-				<div ng-if="slots.length==0" class="ContactExpert__time" >
+				<div ng-if="slots.length==0" class="ContactExpert__time">
 						<span>Sorry there are no available</span>
 						<span>Slots on {{timeslot.date | date:'EEEE'}},
 						{{timeslot.date | date:'d LLLL'}}</span>
