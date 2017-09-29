@@ -8,6 +8,8 @@
 	justify-content: center
 	background-color: #fffff !important
 	height: 40px
+
+	
     	
 	.funnelTrack__icon
 		width: 40px
@@ -18,17 +20,21 @@
 		display: inline-flex
 		align-items: center
 		justify-content: center
+		z-index: 1
+		margin-right: 13%
+
+		&:last-child
+			margin-right: 0%
 
 		img
 			width: 70%
 			height: 70%
 
-.funnelTrack__icon--right
-	margin-right: 13%
-
-	&:after
-		content: '';
-		position: absolute;
-		width: 143%;
-		border: 1px solid #809DBC;
-		left: 106%;
+	.funnelTrack__icon-containers
+		&:after
+			content: '';
+			position: absolute;
+			width: 70px
+			border: 1px solid #809DBC;
+			left: 106%;
+			z-index: -1
