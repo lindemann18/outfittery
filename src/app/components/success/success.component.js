@@ -11,12 +11,13 @@ const successComponent = {
 	bindings:{
 
 	},
-	controller: function($scope)
+	controller: function($scope,calendarService)
 	{
 		$scope.stylist = stylist;
 		$scope.wallet = wallet;
 		$scope.house = house;
 		$scope.money = money;
+		$scope.stylistName = localStorage.getItem("stylist");
 	}
 };
 

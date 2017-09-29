@@ -62,6 +62,7 @@ const contactExpertComponent = {
 			calendarService.submitAppointment($http,$scope.contactExpertInfo).then(
 				function(response)
 				{
+					localStorage.setItem("stylist",response.data.stylist);
 					if(response.status===201)
 					{
 						window.location.assign("/success");

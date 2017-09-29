@@ -3,6 +3,7 @@ const URL = "https://nrg-frontend-task-api.herokuapp.com/";
 const URL_COUNTRIES = "https://restcountries.eu/rest/v2/all";
 let timeSlots = [];
 const SERVICE_NAME = "calendarService";
+let stylist = null;
 
 // $http param
 const phones= [
@@ -239,13 +240,22 @@ function getCountryPhoneCodes($http)
 	return phones;
 }
 
+function assignStylistName(name)
+{
+
+	stylist = name;
+	return  function(){return stylist;}
+}
+
+
 function calendarRequestService()
 {
 
 	return{
 		getTimeSlots: getTimeSlots,
 		getCountryPhoneCodes:getCountryPhoneCodes,
-		submitAppointment:submitAppointment
+		submitAppointment:submitAppointment,
+		assignStylistName:assignStylistName
 	}
 }
 
