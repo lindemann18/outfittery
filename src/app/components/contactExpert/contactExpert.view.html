@@ -40,7 +40,7 @@
 			</div>
 			<div class="ContactExpert__date-picker">
 				<div class="ContactExpert__schedule">
-					<div class="ContactExpert__day" ng-repeat="timeslot in timeSlots" ng-click="showTime(timeslot.slots,timeslot.date)">
+					<div class="ContactExpert__day" ng-repeat="timeslot in timeSlots" ng-click="showTime(timeslot.slots,timeslot.date,$index)" ng-class="{ContactExpert__selected: $index===selectedIndex}">
 						<span>{{timeslot.date | date:'EEEE'}}</span>
 						<span>{{timeslot.date | date:'MMM d'}}</span>
 					</div>
@@ -66,6 +66,10 @@
 		<div class="Contact_Expert__Loading-error" ng-if="loading">
 			<h3>{{textOrerror}}</h3>
 		</div>
+	</div>
+
+	<div ng-if="loading">
+		<h3 class="text-center">Loading...</h3>
 	</div>
 
 	<div class="ContactExpert__share-with">

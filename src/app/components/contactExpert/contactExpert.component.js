@@ -25,6 +25,7 @@ const contactExpertComponent = {
 		$scope.position = 1;
 		$scope.loading  = true;
 		$scope.textOrerror = "";
+		$scope.selectedIndex = "";
 		$scope.contactExpertInfo = {
 			orderConfirmationComment:"",
 			slot:"",
@@ -56,6 +57,8 @@ const contactExpertComponent = {
 		{
 				
 			// Setting the information for the submit request.
+			$scope.contactExpertFlag = false;
+			$scope.loading = true;
 			$scope.contactExpertInfo.phone = $scope.numberPhone.code + $scope.numberPhone.number;
 
 
@@ -87,8 +90,9 @@ const contactExpertComponent = {
 			}
 		}
 
-		$scope.showTime = function(slots,time)
+		$scope.showTime = function(slots,time,index)
 		{
+			$scope.selectedIndex = index;
 			$scope.slots = slots;
 			$scope.contactExpertInfo.date = time;
 		}
