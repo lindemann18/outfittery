@@ -30,7 +30,7 @@ angular.module(MODULE_NAME, [
   contactExpertController,
   successController,
   // Services
-  calendarService
+  calendarService,
 ])
   .config(routing)
   .config(translationConfig);

@@ -34,7 +34,7 @@
 		</div>
 
 		<div class="ContactExpert__date-pick" ng-if="!loading">
-			<span>Pick a day and time</span>
+			<span class="ContactExpert__pickDayTitle">Pick a day and time</span>
 			<div class="ContactExpert__arrow ContactExpert__arrow--left" ng-click="moveCarousel('left')">
 				<img src="{{left}}" alt="">
 			</div>
@@ -77,7 +77,7 @@
 		<textarea ng-model="contactExpertInfo.orderConfirmationComment"></textarea>
 	</div>
 	<div class="ContactExpert__confirmOrder">
-		<button class="btn btn-default"><img src="{{left}}" alt=""></button>
+		<button class="btn btn-default"><a href="/"><img src="{{left}}" alt=""></a> </button>
 		<a  ng-click="submitOrder()" class="uppercase btn btn-primary ContactExpert__confirmBtn" translate="Confirm Order"></a>
 	</div>
 </div><!-- ContactExpert -->
